@@ -6,9 +6,12 @@ import {
   State,
   getPagination,
   objStore,
-  recordScroll,
-  recoverScroll,
+  getHistoryKey,
+  hasHistory,
+  recoverHistory,
+  clearHistory,
   me,
+  recordHistory,
 } from "~/store"
 import {
   fsGet,
@@ -25,62 +28,21 @@ let first_fetch = true
 
 let cancelObj: Canceler
 let cancelList: Canceler
-export function addOrUpdateQuery(
-  key: string,
-  value: any,
-  type = "replaceState",
-) {
-  let url = type === "location" ? location.href : location.hash
 
-  if (!url.includes("?")) {
-    url = `${url}?${key}=${value}`
-  } else {
-    if (!url.includes(key)) {
-      url = `${url}&${key}=${value}`
-    } else {
-      const re = `(\\?|&|\#)${key}([^&|^#]*)(&|$|#)`
-      url = url.replace(new RegExp(re), "$1" + key + "=" + value + "$3")
-    }
-  }
-
-  if (type === "location") {
-    location.href = url
-  }
-
-  if (type === "pushState") {
-    history.pushState({}, "", url)
-  }
-
-  if (type === "replaceState") {
-    history.replaceState({}, "", url)
-  }
-}
-function getQueryVariable(name: string): string {
-  var query = window.location.search.substring(1)
-  var vars = query.split("&")
-  for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split("=")
-    if (pair[0] == name) {
-      return pair[1]
-    }
-  }
-  return ""
-}
 const IsDirRecord: Record<string, boolean> = {}
 let globalPage = 1
 export const getGlobalPage = () => {
   return globalPage
 }
+export const setGlobalPage = (page: number) => {
+  globalPage = page
+  // console.log("setGlobalPage", globalPage)
+}
 export const resetGlobalPage = () => {
-  const pagination = getPagination()
-  globalPage = 1
-  if (pagination.type === "pagination") {
-    addOrUpdateQuery("page", 1)
-  }
-  console.log("resetGlobalPage", globalPage)
+  setGlobalPage(1)
 }
 export const usePath = () => {
-  const { pathname, to } = useRouter()
+  const { pathname, to, searchParams } = useRouter()
   const [, getObj] = useFetch((path: string) =>
     fsGet(
       path,
@@ -91,8 +53,8 @@ export const usePath = () => {
     ),
   )
   const pagination = getPagination()
-  if (pagination.type === "pagination" && getQueryVariable("page")) {
-    globalPage = parseInt(getQueryVariable("page"))
+  if (pagination.type === "pagination") {
+    setGlobalPage(parseInt(searchParams["page"]) || 1)
   }
   const [, getObjs] = useFetch(
     (arg?: {
@@ -135,21 +97,30 @@ export const usePath = () => {
   // handle pathname change
   // if confirm current path is dir, fetch List directly
   // if not, fetch get then determine if it is dir or file
-  const handlePathChange = (path: string, rp?: boolean, force?: boolean) => {
-    log(`handle [${path}] change`)
+  const handlePathChange = (
+    path: string,
+    index?: number,
+    rp?: boolean,
+    force?: boolean,
+  ) => {
     cancelObj?.()
     cancelList?.()
     retry_pass = rp ?? false
-    handleErr("")
-    if (IsDirRecord[path]) {
-      return handleFolder(path, globalPage, undefined, undefined, force)
+    ObjStore.setErr("")
+    if (hasHistory(path, index)) {
+      log(`handle [${getHistoryKey(path, index)}] from history`)
+      return recoverHistory(path, index)
+    } else if (IsDirRecord[path]) {
+      log(`handle [${getHistoryKey(path, index)}] as folder`)
+      return handleFolder(path, index, undefined, undefined, force)
     } else {
-      return handleObj(path)
+      log(`handle [${getHistoryKey(path, index)}] as obj`)
+      return handleObj(path, index)
     }
   }
 
   // handle enter obj that don't know if it is dir or file
-  const handleObj = async (path: string) => {
+  const handleObj = async (path: string, index?: number) => {
     ObjStore.setState(State.FetchingObj)
     const resp = await getObj(path)
     handleRespWithoutNotify(
@@ -159,13 +130,14 @@ export const usePath = () => {
         ObjStore.setProvider(data.provider)
         if (data.is_dir) {
           setPathAs(path)
-          handleFolder(path, globalPage)
+          handleFolder(path, index)
         } else {
           ObjStore.setReadme(data.readme)
           ObjStore.setHeader(data.header)
           ObjStore.setRelated(data.related ?? [])
           ObjStore.setRawUrl(data.raw_url)
           ObjStore.setState(State.File)
+          recordHistory(path, index)
         }
       },
       handleErr,
@@ -186,12 +158,12 @@ export const usePath = () => {
     if (size !== undefined && pagination.type === "all") {
       size = undefined
     }
-    globalPage = index ?? 1
     ObjStore.setState(append ? State.FetchingMore : State.FetchingObjs)
     const resp = await getObjs({ path, index, size, force })
     handleRespWithoutNotify(
       resp,
       (data) => {
+        setGlobalPage(index ?? 1)
         if (append) {
           appendObjs(data.content)
         } else {
@@ -203,9 +175,7 @@ export const usePath = () => {
         ObjStore.setWrite(data.write)
         ObjStore.setProvider(data.provider)
         ObjStore.setState(State.Folder)
-        if (!(append && (index ?? 1) > 1)) {
-          recoverScroll(path)
-        }
+        recordHistory(path, index ?? 1)
       },
       handleErr,
     )
@@ -218,9 +188,15 @@ export const usePath = () => {
         notify.error(msg)
       }
     } else {
-      if (first_fetch && msg.endsWith("object not found")) {
+      const basePath = me().base_path
+      if (
+        first_fetch &&
+        basePath != "/" &&
+        pathname().includes(basePath) &&
+        msg.endsWith("object not found")
+      ) {
         first_fetch = false
-        to(pathname().replace(me().base_path, ""))
+        to(pathname().replace(basePath, ""))
         return
       }
       if (code === undefined || code >= 0) {
@@ -228,34 +204,31 @@ export const usePath = () => {
       }
     }
   }
-  const pageChange = (index?: number, size?: number, append = false) => {
-    return handleFolder(pathname(), index, size, append)
-  }
   const loadMore = () => {
-    return pageChange(globalPage + 1, undefined, true)
+    return handleFolder(pathname(), globalPage + 1, undefined, true)
   }
   return {
     handlePathChange: handlePathChange,
     setPathAs: setPathAs,
     refresh: async (retry_pass?: boolean, force?: boolean) => {
       const path = pathname()
-      recordScroll(path)
+      const scroll = window.scrollY
+      clearHistory(path, globalPage)
       if (
         pagination.type === "load_more" ||
         pagination.type === "auto_load_more"
       ) {
         const page = globalPage
         resetGlobalPage()
-        await handlePathChange(path, retry_pass, force)
+        await handlePathChange(path, globalPage, retry_pass, force)
         while (globalPage < page) {
           await loadMore()
         }
       } else {
-        await handlePathChange(path, retry_pass, force)
+        await handlePathChange(path, globalPage, retry_pass, force)
       }
-      recoverScroll(path)
+      window.scroll({ top: scroll, behavior: "smooth" })
     },
-    pageChange: pageChange,
     loadMore: loadMore,
     allLoaded: () => globalPage >= Math.ceil(objStore.total / pagination.size),
   }

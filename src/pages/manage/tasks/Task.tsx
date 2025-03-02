@@ -117,7 +117,10 @@ const getTimeStr = (millisecond: number) => {
 export const Task = (props: TaskAttribute & TasksProps & TaskLocalSetter) => {
   const t = useT()
   const operateName = props.done === "undone" ? "cancel" : "delete"
-  const canRetry = props.done === "done" && props.state === TaskStateEnum.Failed
+  const canRetry =
+    props.done === "done" &&
+    (props.state === TaskStateEnum.Failed ||
+      props.state === TaskStateEnum.Canceled)
   const [operateLoading, operate] = useFetch(
     (): PEmptyResp =>
       r.post(`/task/${props.type}/${operateName}?tid=${props.id}`),
@@ -307,20 +310,21 @@ export const Task = (props: TaskAttribute & TasksProps & TaskLocalSetter) => {
             </Show>
             <Show when={matches !== null}>
               <For each={Object.entries(props.nameAnalyzer.attrs)}>
-                {(entry) => (
-                  <>
-                    <GridItem
-                      color="$neutral9"
-                      textAlign="right"
-                      css={{ whiteSpace: "nowrap" }}
-                    >
-                      {entry[0]}
-                    </GridItem>
-                    <GridItem color="$neutral9">
-                      {entry[1](matches as RegExpMatchArray)}
-                    </GridItem>
-                  </>
-                )}
+                {(entry) => {
+                  const value = entry[1](matches as RegExpMatchArray)
+                  return value === undefined ? null : (
+                    <Show when={entry[1] !== undefined}>
+                      <GridItem
+                        color="$neutral9"
+                        textAlign="right"
+                        css={{ whiteSpace: "nowrap" }}
+                      >
+                        {entry[0]}
+                      </GridItem>
+                      <GridItem color="$neutral9">{value}</GridItem>
+                    </Show>
+                  )
+                }}
               </For>
             </Show>
             <GridItem
