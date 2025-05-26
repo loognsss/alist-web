@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          path: alist-web
+          path: blist-web
           persist-credentials: false
           fetch-depth: 0
           submodules: recursive
@@ -53,7 +53,7 @@ jobs:
       - name: Checkout dist repo
         uses: actions/checkout@v4
         with:
-          repository: alist-org/web-dist
+          repository: loognsss/blist-web
           ref: main
           path: web-dist
           persist-credentials: false
@@ -61,7 +61,7 @@ jobs:
 
       - name: Build
         run: |
-          mv alist-web/release.sh .
+          mv blist-web/release.sh .
           bash release.sh
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
@@ -69,7 +69,7 @@ jobs:
 
       # - name: Publish npm
       #   run: |
-      #     cd alist-web
+      #     cd blist-web
       #     echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
       #     pnpm publish --no-git-checks
       #     cd ..
@@ -82,7 +82,7 @@ jobs:
           github_token: ${{ secrets.MY_TOKEN }}
           branch: main
           directory: web-dist
-          repository: alist-org/web-dist
+          repository: loognsss/blist-web
 
       - name: Release
         uses: softprops/action-gh-release@v1
