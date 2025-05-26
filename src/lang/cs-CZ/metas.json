@@ -1,12 +1,12 @@
 {
-  "path": "Path",
-  "password": "Password",
-  "write": "Write",
-  "hide": "Hide",
-  "readme": "Readme",
-  "readme_help": "Render a markdown at the bottom, support content or link",
-  "header": "Header",
-  "header_help": "Render a markdown at the top, support content or link",
-  "apply_sub": "Apply to sub folder",
-  "hide_help": "One regular expression per line"
+  "path": "Cesta",
+  "password": "Heslo",
+  "write": "Napsat",
+  "hide": "Skrýt",
+  "readme": "Čtení",
+  "readme_help": "Vykreslovat markdown na dně, obsah podpory nebo odkaz",
+  "header": "Záhlaví",
+  "header_help": "Vykreslovat markdown v horní části, obsahu podpory nebo odkazu",
+  "apply_sub": "Použít pro podsložku",
+  "hide_help": "Jeden regulární výraz na řádek"
 }
