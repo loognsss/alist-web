@@ -24,19 +24,19 @@
   "115 Open": {
     "limit_rate": "Limit rate",
     "limit_rate-tips": "limit all api request rate ([limit]r/1s)",
-    "order_by": "Order by",
+    "order_by": "เรียงลำดับโดย",
     "order_bys": {
       "file_name": "File name",
       "file_size": "File size",
       "file_type": "File type",
       "user_utime": "User utime"
     },
-    "order_direction": "Order direction",
+    "order_direction": "ทิศทางการเรียงลำดับ",
     "order_directions": {
       "asc": "Asc",
       "desc": "Desc"
     },
-    "refresh_token": "Refresh token",
+    "refresh_token": "รีเฟรชโทเค็น",
     "root_folder_id": "Root folder id"
   },
   "115 Share": {
@@ -144,24 +144,24 @@
     "validate_code": "Validate code"
   },
   "AList V2": {
-    "access_token": "Access token",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "url": "Url"
+    "access_token": "โทเค็นการเข้าถึง",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "url": "ลิงก์"
   },
   "AList V3": {
     "forward_archive_requests": "Forward archive requests",
-    "meta_password": "Meta password",
-    "pass_ua_to_upsteam": "Pass ua to upsteam",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "token": "Token",
-    "url": "Url",
-    "username": "Username"
+    "meta_password": "รหัสผ่านเมตา",
+    "pass_ua_to_upsteam": "ส่งผ่าน UA ไปยังต้นน้ำ",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "token": "โทเค็น",
+    "url": "ลิงก์",
+    "username": "ชื่อผู้ใช้"
   },
   "Alias": {
     "download_concurrency": "Download concurrency",
-    "download_concurrency-tips": "Need to enable proxy",
+    "download_concurrency-tips": "จำเป็นต้องเปิดใช้งานพร็อกซี",
     "download_part_size": "Download part size",
     "download_part_size-tips": "Need to enable proxy. Unit: KB",
     "paths": "Paths",
@@ -251,9 +251,9 @@
     "access_key-tips": "The access key for Azure Storage, used for authentication. https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
     "container_name": "Container name",
     "container_name-tips": "The name of the container in Azure Storage (created in the Azure portal). https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
-    "endpoint": "Endpoint",
+    "endpoint": "ปลายทาง",
     "endpoint-tips": "e.g. https://accountname.blob.core.windows.net/. The full endpoint URL for Azure Storage, including the unique storage account name (3 ~ 24 numbers and lowercase letters only).",
-    "sign_url_expire": "Sign url expire",
+    "sign_url_expire": "ระยะเวลาหมดอายุของลิงก์ที่ลงชื่อ",
     "sign_url_expire-tips": "The expiration time for SAS URLs, in hours."
   },
   "BaiduNetdisk": {
@@ -314,69 +314,69 @@
     "user_name": "User name"
   },
   "Cloudreve": {
-    "address": "Address",
-    "cookie": "Cookie",
-    "custom_ua": "Custom ua",
-    "enable_thumb_and_folder_size": "Enable thumb and folder size",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "username": "Username"
+    "address": "ที่อยู่",
+    "cookie": "คุกกี้",
+    "custom_ua": "UA ที่กำหนดเอง",
+    "enable_thumb_and_folder_size": "เปิดใช้งานรูปย่อและขนาดโฟลเดอร์",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "Cloudreve V4": {
     "access_token": "Access token",
-    "address": "Address",
-    "custom_ua": "Custom ua",
+    "address": "ที่อยู่",
+    "custom_ua": "UA ที่กำหนดเอง",
     "enable_folder_size": "Enable folder size",
     "enable_thumb": "Enable thumb",
     "enable_version_upload": "Enable version upload",
-    "order_by": "Order by",
+    "order_by": "เรียงลำดับโดย",
     "order_bys": {
       "created_at": "Created at",
-      "name": "Name",
-      "size": "Size",
+      "name": "ชื่อ",
+      "size": "ขนาด",
       "updated_at": "Updated at"
     },
-    "order_direction": "Order direction",
+    "order_direction": "ทิศทางการเรียงลำดับ",
     "order_directions": {
       "asc": "Asc",
       "desc": "Desc"
     },
-    "password": "Password",
-    "refresh_token": "Refresh token",
-    "root_folder_path": "Root folder path",
-    "username": "Username"
+    "password": "รหัสผ่าน",
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "Crypt": {
-    "directory_name_encryption": "Directory name encryption",
+    "directory_name_encryption": "การเข้ารหัสชื่อโฟลเดอร์",
     "directory_name_encryptions": {
       "false": "False",
       "true": "True"
     },
-    "encrypted_suffix": "Encrypted suffix",
-    "encrypted_suffix-tips": "for advanced user only! encrypted files will have this suffix",
-    "filename_encoding": "Filename encoding",
-    "filename_encoding-tips": "for advanced user only!",
+    "encrypted_suffix": "ส่วนต่อท้ายที่เข้ารหัส",
+    "encrypted_suffix-tips": "ตัวเลือกขั้นสูง! ไฟล์ที่เข้ารหัสจะใช้ส่วนต่อท้ายนี้",
+    "filename_encoding": "การเข้ารหัสชื่อไฟล์",
+    "filename_encoding-tips": "ตัวเลือกขั้นสูง",
     "filename_encodings": {
       "base32": "Base32",
       "base32768": "Base32768",
       "base64": "Base64"
     },
-    "filename_encryption": "Filename encryption",
+    "filename_encryption": "การเข้ารหัสชื่อไฟล์",
     "filename_encryptions": {
-      "obfuscate": "Obfuscate",
-      "off": "Off",
-      "standard": "Standard"
+      "obfuscate": "ทำให้สับสน",
+      "off": "ปิด",
+      "standard": "มาตรฐาน"
     },
-    "password": "Password",
-    "password-tips": "the main password",
-    "remote_path": "Remote path",
-    "remote_path-tips": "This is where the encrypted data stores",
-    "salt": "Salt",
-    "salt-tips": "If you don't know what is salt, treat it as a second password. Optional but recommended",
-    "show_hidden": "Show hidden",
-    "show_hidden-tips": "show hidden directories and files",
-    "thumbnail": "Thumbnail",
-    "thumbnail-tips": "enable thumbnail which pre-generated under .thumbnails folder"
+    "password": "รหัสผ่าน",
+    "password-tips": "รหัสผ่านหลัก",
+    "remote_path": "เส้นทางจัดเก็บไฟล์ที่เข้ารหัส",
+    "remote_path-tips": "นี่คือที่เก็บข้อมูลเข้ารหัส",
+    "salt": "เกลือ",
+    "salt-tips": "ถ้าคุณไม่รู้ว่าเกลือคืออะไร สามารถมองว่าเป็นรหัสผ่านที่สอง เป็นตัวเลือก แนะนำให้ใช้",
+    "show_hidden": "แสดงซ่อนไว้",
+    "show_hidden-tips": "แสดงไดเรกทอรีและไฟล์ที่ซ่อนไว้",
+    "thumbnail": "รูปย่อ",
+    "thumbnail-tips": "เปิดใช้งานรูปย่อที่สร้างไว้ล่วงหน้าในโฟลเดอร์รูปย่อ"
   },
   "Doge": {
     "access_key_id": "Access key id",
@@ -413,28 +413,28 @@
   },
   "DoubaoShare": {
     "cookie": "Cookie",
-    "root_folder_path": "Root folder path",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
     "share_ids": "Share ids"
   },
   "Dropbox": {
-    "client_id": "Client id",
-    "client_id-tips": "Keep it empty if you don't have one",
-    "client_secret": "Client secret",
-    "client_secret-tips": "Keep it empty if you don't have one",
-    "oauth_token_url": "Oauth token url",
-    "refresh_token": "Refresh token",
-    "root_folder_path": "Root folder path"
+    "client_id": "ไอดีลูกค้า",
+    "client_id-tips": "ถ้าคุณไม่มี กรุณาปล่อยว่างไว้",
+    "client_secret": "ความลับลูกค้า",
+    "client_secret-tips": "ถ้าคุณไม่มี กรุณาปล่อยว่างไว้",
+    "oauth_token_url": "ลิงก์โทเค็น Oauth",
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก"
   },
   "FTP": {
-    "address": "Address",
-    "encoding": "Encoding",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "username": "Username"
+    "address": "ที่อยู่",
+    "encoding": "การเข้ารหัส",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "FebBox": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
     "page_size": "Page size",
     "page_size-tips": "list api per page size of FebBox driver",
     "root_folder_id": "Root folder id",
@@ -477,8 +477,8 @@
     "ref-tips": "A branch, a tag or a commit SHA, main branch by default.",
     "rename_commit_message": "Rename commit message",
     "repo": "Repo",
-    "root_folder_path": "Root folder path",
-    "token": "Token"
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "token": "โทเค็น"
   },
   "GitHub Releases": {
     "gh_proxy": "Gh proxy",
@@ -490,30 +490,30 @@
     "show_all_version-tips": "show all versions",
     "show_readme": "Show readme",
     "show_readme-tips": "show README、LICENSE file",
-    "token": "Token",
+    "token": "โทเค็น",
     "token-tips": "GitHub token, if you want to access private repositories or increase the rate limit"
   },
   "GoogleDrive": {
-    "chunk_size": "Chunk size",
-    "chunk_size-tips": "chunk size while uploading (unit: MB)",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "order_by": "Order by",
-    "order_by-tips": "such as: folder,name,modifiedTime",
-    "order_direction": "Order direction",
+    "chunk_size": "ขนาดส่วน",
+    "chunk_size-tips": "ขนาดส่วนการอัปโหลด (หน่วย: MB)",
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
+    "order_by": "เรียงลำดับ",
+    "order_by-tips": "ตัวอย่าง: โฟลเดอร์,ชื่อ,เวลาที่แก้ไข",
+    "order_direction": "ทิศทางการเรียงลำดับ",
     "order_directions": {
-      "asc": "Asc",
-      "desc": "Desc"
+      "asc": "เรียงจากน้อยไปมาก",
+      "desc": "เรียงจากมากไปน้อย"
     },
-    "refresh_token": "Refresh token",
-    "root_folder_id": "Root folder id"
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_id": "รหัสโฟลเดอร์ราก"
   },
   "GooglePhoto": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "refresh_token": "Refresh token",
-    "root_folder_id": "Root folder id",
-    "show_archive": "Show archive"
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_id": "รหัสโฟลเดอร์ราก",
+    "show_archive": "แสดงที่เก็บถาวร"
   },
   "HalalCloud": {
     "app_id": "App id",
@@ -543,10 +543,10 @@
     "root_folder_path": "Root folder path"
   },
   "KodBox": {
-    "address": "Address",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "username": "Username"
+    "address": "ที่อยู่",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "Lanzou": {
     "account": "Account",
@@ -583,7 +583,7 @@
   "LenovoNasShare": {
     "host": "Host",
     "host-tips": "You can change it to your local area network",
-    "root_folder_path": "Root folder path",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
     "share_id": "Share id",
     "share_id-tips": "The part after the last / in the shared link",
     "share_pwd": "Share pwd",
@@ -626,8 +626,8 @@
   },
   "Misskey": {
     "access_token": "Access token",
-    "endpoint": "Endpoint",
-    "root_folder_path": "Root folder path"
+    "endpoint": "ปลายทาง",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก"
   },
   "MoPan": {
     "cloud_id": "Cloud id",
@@ -657,60 +657,60 @@
     "song_limit-tips": "only get 200 songs by default"
   },
   "Onedrive": {
-    "chunk_size": "Chunk size",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "custom_host": "Custom host",
-    "custom_host-tips": "Custom host for onedrive download link",
-    "is_sharepoint": "Is sharepoint",
-    "redirect_uri": "Redirect uri",
-    "refresh_token": "Refresh token",
-    "region": "Region",
+    "chunk_size": "ขนาดส่วน",
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
+    "custom_host": "โฮสต์ที่กำหนดเอง",
+    "custom_host-tips": "ลิงก์ดาวน์โหลดเร่งความเร็วที่กำหนดเอง",
+    "is_sharepoint": "เป็น Sharepoint หรือไม่",
+    "redirect_uri": "เปลี่ยนเส้นทาง Uri",
+    "refresh_token": "รีเฟรชโทเค็น",
+    "region": "ภูมิภาค",
     "regions": {
-      "cn": "Cn",
-      "de": "De",
-      "global": "Global",
-      "us": "Us"
+      "cn": "จีน",
+      "de": "เยอรมนี",
+      "global": "ทั่วโลก",
+      "us": "สหรัฐอเมริกา"
     },
-    "root_folder_path": "Root folder path",
-    "site_id": "Site id"
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "site_id": "รหัสไซต์"
   },
   "Onedrive Sharelink": {
-    "password": "Password",
-    "root_folder_path": "Root folder path",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
     "url": "Url"
   },
   "OnedriveAPP": {
-    "chunk_size": "Chunk size",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "custom_host": "Custom host",
-    "custom_host-tips": "Custom host for onedrive download link",
-    "email": "Email",
-    "region": "Region",
+    "chunk_size": "ขนาดส่วน",
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
+    "custom_host": "โฮสต์ที่กำหนดเอง",
+    "custom_host-tips": "ลิงก์ดาวน์โหลดเร่งความเร็วที่กำหนดเอง",
+    "email": "อีเมล",
+    "region": "ภูมิภาค",
     "regions": {
-      "cn": "Cn",
-      "de": "De",
-      "global": "Global",
-      "us": "Us"
+      "cn": "จีน",
+      "de": "เยอรมนี",
+      "global": "ทั่วโลก",
+      "us": "สหรัฐอเมริกา"
     },
-    "root_folder_path": "Root folder path",
-    "tenant_id": "Tenant id"
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "tenant_id": "รหัสผู้เช่า"
   },
   "PikPak": {
     "captcha_token": "Captcha token",
     "device_id": "Device id",
-    "disable_media_link": "Disable media link",
-    "password": "Password",
+    "disable_media_link": "ปิดใช้งานลิงก์สื่อ",
+    "password": "รหัสผ่าน",
     "platform": "Platform",
     "platforms": {
       "android": "Android",
       "pc": "Pc",
       "web": "Web"
     },
-    "refresh_token": "Refresh token",
-    "root_folder_id": "Root folder id",
-    "username": "Username"
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_id": "รหัสโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "PikPakShare": {
     "device_id": "Device id",
@@ -720,9 +720,9 @@
       "pc": "Pc",
       "web": "Web"
     },
-    "root_folder_id": "Root folder id",
-    "share_id": "Share id",
-    "share_pwd": "Share pwd",
+    "root_folder_id": "รหัสโฟลเดอร์ราก",
+    "share_id": "รหัสการแชร์",
+    "share_pwd": "รหัสผ่านการแชร์",
     "use_transcoding_address": "Use transcoding address"
   },
   "Quark": {
@@ -745,7 +745,7 @@
     "device_id": "Device id",
     "query_token": "Query token",
     "query_token-tips": "don't edit'",
-    "refresh_token": "Refresh token",
+    "refresh_token": "รีเฟรชโทเค็น",
     "root_folder_id": "Root folder id"
   },
   "Quqi": {
@@ -758,43 +758,43 @@
     "root_folder_id": "Root folder id"
   },
   "S3": {
-    "access_key_id": "Access key id",
-    "add_filename_to_disposition": "Add filename to disposition",
-    "add_filename_to_disposition-tips": "Add filename to Content-Disposition header.",
-    "bucket": "Bucket",
-    "custom_host": "Custom host",
+    "access_key_id": "รหัสการเข้าถึง",
+    "add_filename_to_disposition": "เพิ่มชื่อไฟล์ใน disposition",
+    "add_filename_to_disposition-tips": "เพิ่มชื่อไฟล์ในหัวข้อ Content-Disposition",
+    "bucket": "บัคเก็ต",
+    "custom_host": "โฮสต์ที่กำหนดเอง",
     "enable_custom_host_presign": "Enable custom host presign",
-    "endpoint": "Endpoint",
-    "force_path_style": "Force path style",
-    "list_object_version": "List object version",
+    "endpoint": "ปลายทาง",
+    "force_path_style": "บังคับใช้รูปแบบเส้นทาง",
+    "list_object_version": "รายการเวอร์ชันวัตถุ",
     "list_object_versions": {
       "v1": "V1",
       "v2": "V2"
     },
-    "placeholder": "Placeholder",
-    "region": "Region",
-    "remove_bucket": "Remove bucket",
-    "remove_bucket-tips": "Remove bucket name from path when using custom host.",
-    "root_folder_path": "Root folder path",
-    "secret_access_key": "Secret access key",
-    "session_token": "Session token",
-    "sign_url_expire": "Sign url expire"
+    "placeholder": "ชื่อไฟล์ชั่วคราว",
+    "region": "ภูมิภาค",
+    "remove_bucket": "ลบบัคเก็ต",
+    "remove_bucket-tips": "ลบชื่อบัคเก็ตจากเส้นทางเมื่อใช้โฮสต์ที่กำหนดเอง",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "secret_access_key": "คีย์การเข้าถึงลับ",
+    "session_token": "โทเค็นเซสชัน",
+    "sign_url_expire": "ระยะเวลาหมดอายุของลิงก์ที่ลงชื่อ"
   },
   "SFTP": {
-    "address": "Address",
-    "ignore_symlink_error": "Ignore symlink error",
-    "passphrase": "Passphrase",
-    "password": "Password",
-    "private_key": "Private key",
-    "root_folder_path": "Root folder path",
-    "username": "Username"
+    "address": "ที่อยู่",
+    "ignore_symlink_error": "ละเว้นข้อผิดพลาดลิงก์แบบเชื่อมโยง",
+    "passphrase": "รหัสผ่าน",
+    "password": "รหัสผ่าน",
+    "private_key": "กุญแจส่วนตัว",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "username": "ชื่อผู้ใช้"
   },
   "SMB": {
-    "address": "Address",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "share_name": "Share name",
-    "username": "Username"
+    "address": "ที่อยู่",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "share_name": "ชื่อการแชร์",
+    "username": "ชื่อผู้ใช้"
   },
   "Seafile": {
     "address": "Address",
@@ -829,24 +829,24 @@
     "use_s3_upload_method": "Use s3 upload method"
   },
   "Terabox": {
-    "cookie": "Cookie",
-    "download_api": "Download api",
+    "cookie": "คุกกี้",
+    "download_api": "API ดาวน์โหลด",
     "download_apis": {
-      "crack": "Crack",
-      "official": "Official"
+      "crack": "ไม่เป็นทางการ",
+      "official": "เป็นทางการ"
     },
-    "order_by": "Order by",
+    "order_by": "เรียงลำดับ",
     "order_bys": {
-      "name": "Name",
-      "size": "Size",
-      "time": "Time"
+      "name": "ชื่อ",
+      "size": "ขนาด",
+      "time": "เวลา"
     },
-    "order_direction": "Order direction",
+    "order_direction": "ทิศทางการเรียงลำดับ",
     "order_directions": {
-      "asc": "Asc",
-      "desc": "Desc"
+      "asc": "เรียงจากน้อยไปมาก",
+      "desc": "เรียงจากมากไปน้อย"
     },
-    "root_folder_path": "Root folder path"
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก"
   },
   "Thunder": {
     "captcha_token": "Captcha token",
@@ -1013,23 +1013,23 @@
     "device_id": "Device id",
     "query_token": "Query token",
     "query_token-tips": "don't edit'",
-    "refresh_token": "Refresh token",
+    "refresh_token": "รีเฟรชโทเค็น",
     "root_folder_id": "Root folder id"
   },
   "USS": {
-    "anti_theft_chain_token": "Anti theft chain token",
-    "bucket": "Bucket",
-    "endpoint": "Endpoint",
-    "operator_name": "Operator name",
-    "operator_password": "Operator password",
-    "root_folder_path": "Root folder path",
-    "sign_url_expire": "Sign url expire"
+    "anti_theft_chain_token": "โทเค็นป้องกันการขโมยลิงก์",
+    "bucket": "บัคเก็ต",
+    "endpoint": "ปลายทาง",
+    "operator_name": "ชื่อผู้ดำเนินการ",
+    "operator_password": "รหัสผ่านผู้ดำเนินการ",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "sign_url_expire": "ระยะเวลาหมดอายุของลิงก์ที่ลงชื่อ"
   },
   "UrlTree": {
-    "head_size": "Head size",
-    "head_size-tips": "Use head method to get file size, but it may be failed.",
-    "url_structure": "Url structure",
-    "url_structure-tips": "structure:FolderName:\n  [FileName:][FileSize:][Modified:]Url",
+    "head_size": "ขนาดหัว",
+    "head_size-tips": "ใช้วิธี HEAD เพื่อรับขนาดไฟล์ แต่สามารถล้มเหลวได้",
+    "url_structure": "โครงสร้าง URL",
+    "url_structure-tips": "โครงสร้าง:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url",
     "writable": "Writable"
   },
   "VTencent": {
@@ -1050,21 +1050,21 @@
     "tf_uid": "Tf uid"
   },
   "Virtual": {
-    "max_file_size": "Max file size",
-    "min_file_size": "Min file size",
-    "num_file": "Num file",
-    "num_folder": "Num folder",
-    "root_folder_path": "Root folder path"
+    "max_file_size": "ขนาดไฟล์สูงสุด",
+    "min_file_size": "ขนาดไฟล์ต่ำสุด",
+    "num_file": "จำนวนไฟล์",
+    "num_folder": "จำนวนโฟลเดอร์",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก"
   },
   "WebDav": {
-    "address": "Address",
-    "password": "Password",
-    "root_folder_path": "Root folder path",
-    "tls_insecure_skip_verify": "Tls insecure skip verify",
-    "username": "Username",
-    "vendor": "Vendor",
+    "address": "ที่อยู่",
+    "password": "รหัสผ่าน",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก",
+    "tls_insecure_skip_verify": "ข้ามการตรวจสอบใบรับรอง SSL",
+    "username": "ชื่อผู้ใช้",
+    "vendor": "ผู้จัดหา",
     "vendors": {
-      "other": "Other",
+      "other": "อื่นๆ",
       "sharepoint": "Sharepoint"
     }
   },
@@ -1102,23 +1102,23 @@
     }
   },
   "YandexDisk": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "order_by": "Order by",
+    "client_id": "ไอดีลูกค้า",
+    "client_secret": "ความลับลูกค้า",
+    "order_by": "เรียงลำดับ",
     "order_bys": {
-      "created": "Created",
-      "modified": "Modified",
-      "name": "Name",
-      "path": "Path",
-      "size": "Size"
+      "created": "เวลาสร้าง",
+      "modified": "เวลาแก้ไข",
+      "name": "ชื่อ",
+      "path": "เส้นทาง",
+      "size": "ขนาด"
     },
-    "order_direction": "Order direction",
+    "order_direction": "ทิศทางการเรียงลำดับ",
     "order_directions": {
-      "asc": "Asc",
-      "desc": "Desc"
+      "asc": "เรียงจากน้อยไปมาก",
+      "desc": "เรียงจากมากไปน้อย"
     },
-    "refresh_token": "Refresh token",
-    "root_folder_path": "Root folder path"
+    "refresh_token": "รีเฟรชโทเค็น",
+    "root_folder_path": "เส้นทางโฟลเดอร์ราก"
   },
   "config": {
     "115 Cloud": {},
