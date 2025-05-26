@@ -1,15 +1,15 @@
 {
-  "search_index": "Search index",
-  "current": "Current indexes",
-  "build": "Build indexes",
-  "rebuild": "Rebuild indexes",
-  "paths_to_update": "Paths to update",
-  "max_depth": "Max depth",
-  "update": "Update indexes",
-  "obj_count": "Object count",
-  "last_done_time": "Last done time",
-  "unknown": "Unknown",
-  "stop": "Stop",
-  "clear": "Clear",
-  "error": "Error"
+  "search_index": "ดัชนีการค้นหา",
+  "current": "ดัชนีปัจจุบัน",
+  "build": "สร้างดัชนี",
+  "rebuild": "สร้างดัชนีใหม่",
+  "paths_to_update": "เส้นทางที่จะอัปเดตดัชนี",
+  "max_depth": "ความลึกสูงสุด",
+  "update": "อัปเดตดัชนี",
+  "obj_count": "นับวัตถุ",
+  "last_done_time": "เวลาที่ทำเสร็จครั้งล่าสุด",
+  "unknown": "ไม่ทราบ",
+  "stop": "หยุด",
+  "clear": "ล้าง",
+  "error": "ข้อผิดพลาด"
 }
