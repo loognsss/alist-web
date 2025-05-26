@@ -1,15 +1,15 @@
 {
-  "search_index": "Search index",
-  "current": "Current indexes",
-  "build": "Build indexes",
-  "rebuild": "Rebuild indexes",
-  "paths_to_update": "Paths to update",
-  "max_depth": "Max depth",
-  "update": "Update indexes",
-  "obj_count": "Object count",
-  "last_done_time": "Last done time",
-  "unknown": "Unknown",
-  "stop": "Stop",
-  "clear": "Clear",
-  "error": "Error"
+  "search_index": "インデックスを検索",
+  "current": "現在のインデックス",
+  "build": "インデックスをビルド",
+  "rebuild": "インデックスをリビルド",
+  "paths_to_update": "アップデートのパス",
+  "max_depth": "最大の深さ",
+  "update": "インデックスを更新",
+  "obj_count": "オブジェクト数",
+  "last_done_time": "最終完了日時",
+  "unknown": "不明",
+  "stop": "停止",
+  "clear": "クリア",
+  "error": "エラー"
 }
