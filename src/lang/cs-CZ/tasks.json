@@ -1,0 +1,65 @@
+{
+  "offline_download": "Stáhnout soubor do místního počítače",
+  "offline_download_transfer": "Přenos staženého souboru do odpovídajícího úložiště",
+  "upload": "Nahrát soubor do odpovídajícího úložiště",
+  "copy": "Kopírovat soubor z úložiště do jiného úložiště",
+  "decompress": "Stáhnout a rozbalit archivní soubor",
+  "decompress_upload": "Nahrát rozbalený soubor do cílového úložiště",
+  "done": "Dokončeno",
+  "undone": "Běh",
+  "clear_succeeded": "Vymazání bylo úspěšné",
+  "retry": "Opakovat",
+  "retry_failed": "Opakování se nezdařilo",
+  "state": {
+    "0": "Nevyřízeno",
+    "1": "Běh",
+    "2": "Úspěšně",
+    "3": "Rušení",
+    "4": "Zrušeno",
+    "5": "Chybný",
+    "6": "Selhání",
+    "7": "Selhalo",
+    "8": "Opakování čekání",
+    "9": "Opakování"
+  },
+  "retry_selected": "Opakovat vybrané",
+  "cancel_selected": "Zrušit vybrané",
+  "delete_selected": "Odstranit vybrané",
+  "filter": "Filtr",
+  "expand": "Rozbalit",
+  "fold": "Skladovat",
+  "expand_all": "Rozbalit vše",
+  "fold_all": "Složit vše",
+  "attr": {
+    "name": "Název",
+    "creator": "Tvůrce",
+    "state": "Stát",
+    "progress": "Průběh",
+    "speed": "Rychlost",
+    "operation": "Operace",
+    "copy": {
+      "src": "Zdrojová cesta",
+      "dst": "Cílová cesta"
+    },
+    "upload": {
+      "path": "Cesta"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "Cílová cesta",
+      "transfer_src": "Zdrojová cesta",
+      "transfer_src_local": "Zdrojová cesta (Lokální)",
+      "transfer_dst": "Cílová cesta"
+    },
+    "decompress": {
+      "src": "Zdrojová cesta",
+      "dst": "Cílová cesta",
+      "inner": "Vnitřní cesta",
+      "password": "Rozbalovací heslo"
+    },
+    "time_elapsed": "Uplynulý čas",
+    "status": "Stav",
+    "err": "Chyba"
+  },
+  "show_only_mine": "Zobrazit pouze mé úkoly"
+}

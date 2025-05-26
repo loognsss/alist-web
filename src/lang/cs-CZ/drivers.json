@@ -1,0 +1,1289 @@
+{
+  "115 Cloud": {
+    "cookie": "Cookie",
+    "cookie-tips": "vyžadován jeden z QR kódu token a cookie",
+    "limit_rate": "Mezní sazba",
+    "limit_rate-tips": "omezit všechny api požadavky ([limit]r/1s)",
+    "page_size": "Velikost stránky",
+    "page_size-tips": "seznam api na stránku velikosti 115 ovladače",
+    "qrcode_source": "Qrcode zdroj",
+    "qrcode_source-tips": "vyberte zařízení QR kód, výchozí linux",
+    "qrcode_sources": {
+      "alipaymini": "Alipaymini",
+      "android": "Android",
+      "ios": "Io",
+      "qandroid": "Qandroid",
+      "tv": "Tv",
+      "web": "Webová",
+      "wechatmini": "Wechatmini"
+    },
+    "qrcode_token": "Qrcode token",
+    "qrcode_token-tips": "vyžadován jeden z QR kódu token a cookie",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "115 Open": {
+    "limit_rate": "Mezní sazba",
+    "limit_rate-tips": "omezit všechny api požadavky ([limit]r/1s)",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "file_name": "Název souboru",
+      "file_size": "Velikost souboru",
+      "file_type": "Typ souboru",
+      "user_utime": "Ukončení uživatele"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "115 Share": {
+    "cookie": "Cookie",
+    "cookie-tips": "vyžadován jeden z QR kódu token a cookie",
+    "limit_rate": "Mezní sazba",
+    "limit_rate-tips": "limit všech api požadavků (1r/[limit_rate]s)",
+    "page_size": "Velikost stránky",
+    "page_size-tips": "seznam api na stránku velikosti 115 ovladače",
+    "qrcode_source": "Qrcode zdroj",
+    "qrcode_source-tips": "vyberte zařízení QR kód, výchozí linux",
+    "qrcode_sources": {
+      "alipaymini": "Alipaymini",
+      "android": "Android",
+      "ios": "Io",
+      "qandroid": "Qandroid",
+      "tv": "Tv",
+      "web": "Webová",
+      "wechatmini": "Wechatmini"
+    },
+    "qrcode_token": "Qrcode token",
+    "qrcode_token-tips": "vyžadován jeden z QR kódu token a cookie",
+    "receive_code": "Přijímat kód",
+    "receive_code-tips": "příjem kódu 115 sdílených odkazů",
+    "root_folder_id": "ID kořenové složky",
+    "share_code": "Sdílet kód",
+    "share_code-tips": "sdílet kód odkazu 115 akcií"
+  },
+  "123Pan": {
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "123PanLink": {
+    "origin_urls": "Počáteční URL",
+    "origin_urls-tips": "structure:Název složky:\n  [Velikost souborů:][Upraveno:]Url",
+    "private_key": "Soukromý klíč",
+    "uid": "ID",
+    "valid_duration": "Platná délka",
+    "valid_duration-tips": "minuty"
+  },
+  "123PanShare": {
+    "accesstoken": "Accesstoken",
+    "root_folder_id": "ID kořenové složky",
+    "sharekey": "Sdílet",
+    "sharepassword": "Sdílet heslo"
+  },
+  "139Yun": {
+    "authorization": "Autorizace",
+    "cloud_id": "ID Cloudu",
+    "custom_upload_part_size": "Vlastní velikost části nahrávání",
+    "custom_upload_part_size-tips": "0 pro auto",
+    "report_real_size": "Nahlásit skutečnou velikost",
+    "report_real_size-tips": "Povolit nahlášení skutečné velikosti souboru během nahrávání",
+    "root_folder_id": "ID kořenové složky",
+    "type": "Typ",
+    "types": {
+      "family": "Rodina",
+      "group": "Skupina",
+      "personal": "Osobní",
+      "personal_new": "Nový osobní"
+    },
+    "use_large_thumbnail": "Použít velký náhled",
+    "use_large_thumbnail-tips": "Povolit použití velkých náhledů pro obrázky"
+  },
+  "189Cloud": {
+    "cookie": "Cookie",
+    "cookie-tips": "Vyplňte cookie v případě potřeby captcha",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "189CloudPC": {
+    "family_id": "ID rodiny",
+    "family_transfer": "Přemístění rodinných příslušníků",
+    "no_use_ocr": "Žádné použití ocr",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "filename": "Název souboru",
+      "filesize": "Velikost souboru",
+      "lastOpTime": "LastOpTime"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "password": "Heslo",
+    "rapid_upload": "Rychlé nahrání",
+    "root_folder_id": "ID kořenové složky",
+    "type": "Typ",
+    "types": {
+      "family": "Rodina",
+      "personal": "Osobní"
+    },
+    "upload_method": "Metoda nahrávání",
+    "upload_methods": {
+      "old": "Staré",
+      "rapid": "Rychlé",
+      "stream": "Stream"
+    },
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "1<=thread<=32",
+    "username": "Uživatelské jméno",
+    "validate_code": "Validate code"
+  },
+  "AList V2": {
+    "access_token": "Přístupový token",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "url": "Adresa URL"
+  },
+  "AList V3": {
+    "forward_archive_requests": "Požadavky na přesměrování archivu",
+    "meta_password": "Meta heslo",
+    "pass_ua_to_upsteam": "Předat ua nahoru",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "token": "Token",
+    "url": "Adresa URL",
+    "username": "Uživatelské jméno"
+  },
+  "Alias": {
+    "download_concurrency": "Stáhnout konměnu",
+    "download_concurrency-tips": "Je třeba povolit proxy",
+    "download_part_size": "Stáhnout velikost části",
+    "download_part_size-tips": "Je třeba povolit proxy. Jednotka: KB",
+    "paths": "Cesty",
+    "protect_same_name": "Chránit stejný název",
+    "protect_same_name-tips": "Chrání soubory stejného jména před odstraněním nebo přejmenováním",
+    "writable": "Zapisovatelný"
+  },
+  "Aliyundrive": {
+    "internal_upload": "Interní nahrávání",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created_at": "Vytvořeno v",
+      "name": "Název",
+      "size": "Velikost",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "ASC": "ASC",
+      "DESC": "DESC"
+    },
+    "rapid_upload": "Rychlé nahrání",
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "AliyundriveOpen": {
+    "client_id": "ID klienta",
+    "client_id-tips": "Ponechte prázdné, pokud jej nemáte",
+    "client_secret": "Tajný klíč klienta",
+    "client_secret-tips": "Ponechte prázdné, pokud jej nemáte",
+    "drive_type": "Typ jednotky",
+    "drive_types": {
+      "backup": "Záloha",
+      "default": "Výchozí",
+      "resource": "Zdroj"
+    },
+    "internal_upload": "Interní nahrávání",
+    "internal_upload-tips": "Pokud používáte Aliyun ECS se nachází v Pekingu, můžete jej zapnout, abyste zvýšili rychlost nahrávání",
+    "livp_download_format": "Formát stahování Livp",
+    "livp_download_formats": {
+      "jpeg": "JPEG",
+      "mov": "Mov"
+    },
+    "oauth_token_url": "Oauth token URL",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created_at": "Vytvořeno v",
+      "name": "Název",
+      "size": "Velikost",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "ASC": "ASC",
+      "DESC": "DESC"
+    },
+    "rapid_upload": "Rychlé nahrání",
+    "rapid_upload-tips": "Pokud povolíte tuto možnost, soubor bude nejprve nahrán na server, takže postup bude nesprávný",
+    "refresh_token": "Obnovit token",
+    "remove_way": "Odstranit cestu",
+    "remove_ways": {
+      "delete": "Vymazat",
+      "trash": "Koš"
+    },
+    "root_folder_id": "ID kořenové složky"
+  },
+  "AliyundriveShare": {
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created_at": "Vytvořeno v",
+      "name": "Název",
+      "size": "Velikost",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "ASC": "ASC",
+      "DESC": "DESC"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky",
+    "share_id": "Sdílet ID",
+    "share_pwd": "Sdílet pwd"
+  },
+  "Azure Blob Storage": {
+    "access_key": "Přístupový klíč",
+    "access_key-tips": "Přístupový klíč pro Azure zavazadel, používaný pro autentizaci. https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
+    "container_name": "Název kontejneru",
+    "container_name-tips": "Název kontejneru v Azure Storage (vytvořen v Azure portal). https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
+    "endpoint": "Endpoint",
+    "endpoint-tips": "např. https://accountname.blob.core.windows.net/. Úplná adresa URL pro Azure zavazadel, včetně jedinečného jména účtu pro ukládání (pouze 3 ~ 24 číslic a malých písmen).",
+    "sign_url_expire": "URL znaku vyprší",
+    "sign_url_expire-tips": "Čas vypršení platnosti pro SAS URL v hodinách."
+  },
+  "BaiduNetdisk": {
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "custom_crack_ua": "Vlastní praskací ua",
+    "custom_upload_part_size": "Vlastní velikost části nahrávání",
+    "custom_upload_part_size-tips": "0 pro auto",
+    "download_api": "Stáhnout api",
+    "download_apis": {
+      "crack": "Prach",
+      "crack_video": "Crack video",
+      "official": "Úředník"
+    },
+    "low_bandwith_upload_mode": "Režim nízkého počtu kapel",
+    "only_list_video_file": "Zobrazit pouze video soubor",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "name": "Název",
+      "size": "Velikost",
+      "time": "Čas"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_path": "Kořenová složka",
+    "upload_api": "Nahrát api",
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "1<=thread<=32"
+  },
+  "BaiduPhoto": {
+    "album_id": "ID alba",
+    "cookie": "Cookie",
+    "delete_origin": "Odstranit původ",
+    "show_type": "Zobrazit typ",
+    "show_types": {
+      "root": "Root",
+      "root_only_album": "Root pouze album",
+      "root_only_file": "Pouze root soubor"
+    },
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "1<=thread<=32"
+  },
+  "BaiduShare": {
+    "BDUSS": "BDUSÍ",
+    "pwd": "Pwd",
+    "root_folder_path": "Kořenová složka",
+    "surl": "Surl"
+  },
+  "ChaoXingGroupDrive": {
+    "bbsid": "Bbsid",
+    "cookie": "Cookie",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "user_name": "Uživatelské jméno"
+  },
+  "Cloudreve": {
+    "address": "Adresa",
+    "cookie": "Cookie",
+    "custom_ua": "Vlastní ua",
+    "enable_thumb_and_folder_size": "Povolit náhled a velikost složky",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "username": "Uživatelské jméno"
+  },
+  "Cloudreve V4": {
+    "access_token": "Přístupový token",
+    "address": "Adresa",
+    "custom_ua": "Vlastní ua",
+    "enable_folder_size": "Povolit velikost složky",
+    "enable_thumb": "Povolit náhled",
+    "enable_version_upload": "Povolit nahrávání verze",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created_at": "Vytvořeno v",
+      "name": "Název",
+      "size": "Velikost",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "password": "Heslo",
+    "refresh_token": "Obnovit token",
+    "root_folder_path": "Kořenová složka",
+    "username": "Uživatelské jméno"
+  },
+  "Crypt": {
+    "directory_name_encryption": "Šifrování názvu adresáře",
+    "directory_name_encryptions": {
+      "false": "Nepravda",
+      "true": "Pravda"
+    },
+    "encrypted_suffix": "Šifrovaná přípona",
+    "encrypted_suffix-tips": "pouze pro pokročilé uživatele! Šifrované soubory budou mít tuto příponu",
+    "filename_encoding": "Kódování názvu souboru",
+    "filename_encoding-tips": "pouze pro pokročilé uživatele!",
+    "filename_encodings": {
+      "base32": "Základ 32",
+      "base32768": "Base32768",
+      "base64": "Base64"
+    },
+    "filename_encryption": "Šifrování názvu souboru",
+    "filename_encryptions": {
+      "obfuscate": "Obfuscate",
+      "off": "Vypnuto",
+      "standard": "Standardní"
+    },
+    "password": "Heslo",
+    "password-tips": "hlavní heslo",
+    "remote_path": "Vzdálená cesta",
+    "remote_path-tips": "Zde se uloží šifrovaná data",
+    "salt": "Sůl",
+    "salt-tips": "Pokud nevíte, co je sůl, zacházejte s ním jako s druhým heslem. Volitelné, ale doporučeno",
+    "show_hidden": "Zobrazit skryté",
+    "show_hidden-tips": "zobrazit skryté adresáře a soubory",
+    "thumbnail": "Thumbnail",
+    "thumbnail-tips": "povolení náhledu, který byl předgenerován ve složce .thumbnails"
+  },
+  "Doge": {
+    "access_key_id": "ID přístupového klíče",
+    "add_filename_to_disposition": "Přidat název souboru k zobrazení",
+    "add_filename_to_disposition-tips": "Přidat název souboru do hlavičky Content-Disposite.",
+    "bucket": "Kbelík",
+    "custom_host": "Vlastní hostitel",
+    "enable_custom_host_presign": "Povolit vlastní přednastavení hostitele",
+    "endpoint": "Endpoint",
+    "force_path_style": "Vynutit styl cesty",
+    "list_object_version": "Verze objektu seznamu",
+    "list_object_versions": {
+      "v1": "V1",
+      "v2": "V2"
+    },
+    "placeholder": "Zástupný symbol",
+    "region": "Oblasti",
+    "remove_bucket": "Odstranit kbelík",
+    "remove_bucket-tips": "Odebrat název kbelíku ze cesty při použití vlastního hostitele.",
+    "root_folder_path": "Kořenová složka",
+    "secret_access_key": "Tajný přístupový klíč",
+    "session_token": "Token relace",
+    "sign_url_expire": "URL znaku vyprší"
+  },
+  "Doubao": {
+    "cookie": "Cookie",
+    "download_api": "Stáhnout api",
+    "download_apis": {
+      "get_download_info": "Získat informace o stažení",
+      "get_file_url": "Získat URL souboru"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "upload_thread": "Nahrát vlákno"
+  },
+  "DoubaoShare": {
+    "cookie": "Cookie",
+    "root_folder_path": "Kořenová složka",
+    "share_ids": "Sdílet ID"
+  },
+  "Dropbox": {
+    "client_id": "ID klienta",
+    "client_id-tips": "Ponechte prázdné, pokud jej nemáte",
+    "client_secret": "Tajný klíč klienta",
+    "client_secret-tips": "Ponechte prázdné, pokud jej nemáte",
+    "oauth_token_url": "Oauth token URL",
+    "refresh_token": "Obnovit token",
+    "root_folder_path": "Kořenová složka"
+  },
+  "FTP": {
+    "address": "Adresa",
+    "encoding": "Kódování",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "username": "Uživatelské jméno"
+  },
+  "FebBox": {
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "page_size": "Velikost stránky",
+    "page_size-tips": "seznam api na velikost stránky ovladače FebBox",
+    "root_folder_id": "ID kořenové složky",
+    "sort_rule": "Řazení",
+    "sort_rules": {
+      "ext_asc": "Extra asc",
+      "ext_desc": "Výtah",
+      "name_asc": "Název vzestupně",
+      "name_desc": "Jméno sestupně",
+      "size_asc": "Size asc",
+      "size_desc": "Velikost sestupně",
+      "update_asc": "Aktualizovat asc",
+      "update_desc": "Aktualizovat sestupně"
+    },
+    "user_ip": "IP uživatele",
+    "user_ip-tips": "IP adresa uživatele pro odkaz ke stažení, který může urychlit stahování"
+  },
+  "FeijiPan": {
+    "ip": "Ip",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "GitHub API": {
+    "author_email": "E-mail autora",
+    "author_name": "Jméno autora",
+    "committer_email": "Potvrzovací e-mail",
+    "committer_name": "Jméno dárce",
+    "copy_commit_message": "Kopírovat zprávu commitu",
+    "delete_commit_message": "Odstranit zprávu commitu",
+    "gh_proxy": "Gh proxy",
+    "gh_proxy-tips": "GitHub proxy, např. https://ghproxy.net/raw.githubusercontent.com nebo https://gh-proxy.com/raw.githubusercontent.com",
+    "gpg_key_passphrase": "Gpg klíč přístupová fráze",
+    "gpg_private_key": "Gpg soukromý klíč",
+    "mkdir_commit_message": "Zpráva Mkdir commitu",
+    "move_commit_message": "Přesunout zprávu commitu",
+    "owner": "Vlastník",
+    "put_commit_message": "Vložit zprávu commitu",
+    "ref": "Pozn.",
+    "ref-tips": "Odvětve, značka nebo SHA, hlavní pobočka.",
+    "rename_commit_message": "Přejmenovat zprávu commitu",
+    "repo": "Repo",
+    "root_folder_path": "Kořenová složka",
+    "token": "Token"
+  },
+  "GitHub Releases": {
+    "gh_proxy": "Gh proxy",
+    "gh_proxy-tips": "GitHub proxy, e.g. https://ghproxy.net/github.com or https://gh-proxy.com/github.com ",
+    "repo_structure": "Struktura repozitáře",
+    "repo_structure-tips": "struktura:[cesta:]org/repo",
+    "root_folder_id": "ID kořenové složky",
+    "show_all_version": "Zobrazit všechny verze",
+    "show_all_version-tips": "zobrazit všechny verze",
+    "show_readme": "Zobrazit čtení",
+    "show_readme-tips": "zobrazit soubor LICENSE",
+    "token": "Token",
+    "token-tips": "Token GitHub, pokud chcete získat přístup k soukromým repositářům nebo zvýšit limit sazeb"
+  },
+  "GoogleDrive": {
+    "chunk_size": "Velikost chunku",
+    "chunk_size-tips": "velikost chunku při nahrávání (jednotka: MB)",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "order_by": "Řadit podle",
+    "order_by-tips": "Například: složka,název,Upravený čas",
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "GooglePhoto": {
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky",
+    "show_archive": "Zobrazit archiv"
+  },
+  "HalalCloud": {
+    "app_id": "ID aplikace",
+    "app_secret": "Tajný klíč aplikace",
+    "app_version": "Verze aplikace",
+    "refresh_token": "Obnovit token",
+    "refresh_token-tips": "typ přihlášení je obnovit_token,toto je vyžadováno",
+    "root_folder_path": "Kořenová složka",
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "1 <= vlákno <= 32"
+  },
+  "ILanZou": {
+    "ip": "Ip",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "IPFS API": {
+    "endpoint": "Endpoint",
+    "gateway": "Brána",
+    "mode": "Režim",
+    "modes": {
+      "ipfs": "Ipfs",
+      "ipns": "Ipny",
+      "mfs": "Mfs"
+    },
+    "root_folder_path": "Kořenová složka"
+  },
+  "KodBox": {
+    "address": "Adresa",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "username": "Uživatelské jméno"
+  },
+  "Lanzou": {
+    "account": "Účet",
+    "baseUrl": "BaseUrl",
+    "baseUrl-tips": "základní URL pro operaci souboru",
+    "cookie": "Cookie",
+    "cookie-tips": "asi 15 dní, ignorovat, pokud je použito shareUrl",
+    "password": "Heslo",
+    "repair_file_info": "Opravit informace o souboru",
+    "repair_file_info-tips": "Chcete-li použít webdav, musíte jej povolit",
+    "root_folder_id": "ID kořenové složky",
+    "shareUrl": "Sdílet Url",
+    "shareUrl-tips": "slouží ke sdílení stránky",
+    "share_password": "Sdílet heslo",
+    "type": "Typ",
+    "types": {
+      "account": "Účet",
+      "cookie": "Cookie",
+      "url": "Adresa URL"
+    },
+    "user_agent": "Uživatelský agent"
+  },
+  "Lark": {
+    "app_id": "ID aplikace",
+    "app_id-tips": "ID aplikace",
+    "app_secret": "Tajný klíč aplikace",
+    "app_secret-tips": "tajemství aplikace",
+    "external_mode": "Externí režim",
+    "external_mode-tips": "externí režim",
+    "root_folder_path": "Kořenová složka",
+    "tenant_url_prefix": "Prefix URL nájemce",
+    "tenant_url_prefix-tips": "prefix URL webu"
+  },
+  "LenovoNasShare": {
+    "host": "Hostitel",
+    "host-tips": "Můžete to změnit na místní síť",
+    "root_folder_path": "Kořenová složka",
+    "share_id": "Sdílet ID",
+    "share_id-tips": "Část po posledním / ve sdíleném odkazu",
+    "share_pwd": "Sdílet pwd",
+    "share_pwd-tips": "Heslo sdíleného odkazu"
+  },
+  "Local": {
+    "mkdir_perm": "Mkdir perm",
+    "recycle_bin_path": "Cesta do koše",
+    "recycle_bin_path-tips": "cesta k recyklaci koše, trvale odstraňte, pokud je prázdné, nebo ponechte 'trvale smazat'",
+    "root_folder_path": "Kořenová složka",
+    "show_hidden": "Zobrazit skryté",
+    "show_hidden-tips": "zobrazit skryté adresáře a soubory",
+    "thumb_cache_folder": "Složka mezipaměti Thumb",
+    "thumb_concurrency": "Konměna náhledu",
+    "thumb_concurrency-tips": "Počet generování goroutinů souběžně. Toto určuje, kolik náhledů lze vygenerovat paralelně.",
+    "thumbnail": "Thumbnail",
+    "thumbnail-tips": "zapnout náhled",
+    "video_thumb_pos": "Video náhledy",
+    "video_thumb_pos-tips": "Poloha náhledu videa. Je-li hodnota číslo (celé číslo plovoucího bodu), představuje čas v sekundách. Pokud hodnota končí '%', představuje procento doby trvání videa."
+  },
+  "MediaTrack": {
+    "access_token": "Přístupový token",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "size": "Velikost",
+      "title": "Hlava 1 – Celkem",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_desc": "Řazení sestupně",
+    "project_id": "ID projektu",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "Mega_nz": {
+    "email": "E-mailová adresa",
+    "password": "Heslo",
+    "two_fa_code": "Dva fa kód",
+    "two_fa_code-tips": "Šestimístný kód 2FA, pouze vyplnění kódu 2FA nepodporuje opětovné načtení řidiče.",
+    "two_fa_secret": "Dva fa tajné",
+    "two_fa_secret-tips": "2FA tajný"
+  },
+  "Misskey": {
+    "access_token": "Přístupový token",
+    "endpoint": "Endpoint",
+    "root_folder_path": "Kořenová složka"
+  },
+  "MoPan": {
+    "cloud_id": "ID Cloudu",
+    "device_info": "Informace o zařízení",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "filename": "Název souboru",
+      "filesize": "Velikost souboru",
+      "lastOpTime": "LastOpTime"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "password": "Heslo",
+    "phone": "Telefon",
+    "root_folder_id": "ID kořenové složky",
+    "sms_code": "Kód Sms",
+    "sms_code-tips": "vstup 'odeslat' odeslat SMS ",
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "1<=thread<=32"
+  },
+  "NeteaseMusic": {
+    "cookie": "Cookie",
+    "song_limit": "Limit skladeb",
+    "song_limit-tips": "ve výchozím nastavení získejte pouze 200 skladeb"
+  },
+  "Onedrive": {
+    "chunk_size": "Velikost chunku",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "custom_host": "Vlastní hostitel",
+    "custom_host-tips": "Vlastní hostitel pro onedrive download link",
+    "is_sharepoint": "Sdílet",
+    "redirect_uri": "Přesměrovat uri",
+    "refresh_token": "Obnovit token",
+    "region": "Oblasti",
+    "regions": {
+      "cn": "Cn",
+      "de": "V části A přílohy I se bod 3 nahrazuje tímto:",
+      "global": "Globální",
+      "us": "My"
+    },
+    "root_folder_path": "Kořenová složka",
+    "site_id": "Site id"
+  },
+  "Onedrive Sharelink": {
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "url": "Adresa URL"
+  },
+  "OnedriveAPP": {
+    "chunk_size": "Velikost chunku",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "custom_host": "Vlastní hostitel",
+    "custom_host-tips": "Vlastní hostitel pro onedrive download link",
+    "email": "E-mailová adresa",
+    "region": "Oblasti",
+    "regions": {
+      "cn": "Cn",
+      "de": "V části A přílohy I se bod 3 nahrazuje tímto:",
+      "global": "Globální",
+      "us": "My"
+    },
+    "root_folder_path": "Kořenová složka",
+    "tenant_id": "Tenant id"
+  },
+  "PikPak": {
+    "captcha_token": "Captcha token",
+    "device_id": "ID zařízení",
+    "disable_media_link": "Zakázat mediální odkaz",
+    "password": "Heslo",
+    "platform": "Platforma",
+    "platforms": {
+      "android": "Android",
+      "pc": "Pc",
+      "web": "Webová"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "PikPakShare": {
+    "device_id": "ID zařízení",
+    "platform": "Platforma",
+    "platforms": {
+      "android": "Android",
+      "pc": "Pc",
+      "web": "Webová"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "share_id": "Sdílet ID",
+    "share_pwd": "Sdílet pwd",
+    "use_transcoding_address": "Použít překódovací adresu"
+  },
+  "Quark": {
+    "cookie": "Cookie",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "file_name": "Název souboru",
+      "file_type": "Typ souboru",
+      "none": "Nic",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "root_folder_id": "ID kořenové složky"
+  },
+  "QuarkTV": {
+    "device_id": "ID zařízení",
+    "query_token": "Token dotazu",
+    "query_token-tips": "neupravujte'",
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "Quqi": {
+    "cdn": "Cdn",
+    "cdn-tips": "Pokud povolíte tuto možnost, rychlost stahování může být zvýšena, ale dojde k nějaké ztrátě výkonu",
+    "cookie": "Cookie",
+    "cookie-tips": "Cookie může být použita na více klientů současně",
+    "password": "Heslo",
+    "phone": "Telefon",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "S3": {
+    "access_key_id": "ID přístupového klíče",
+    "add_filename_to_disposition": "Přidat název souboru k zobrazení",
+    "add_filename_to_disposition-tips": "Přidat název souboru do hlavičky Content-Disposite.",
+    "bucket": "Kbelík",
+    "custom_host": "Vlastní hostitel",
+    "enable_custom_host_presign": "Povolit vlastní přednastavení hostitele",
+    "endpoint": "Endpoint",
+    "force_path_style": "Vynutit styl cesty",
+    "list_object_version": "Verze objektu seznamu",
+    "list_object_versions": {
+      "v1": "V1",
+      "v2": "V2"
+    },
+    "placeholder": "Zástupný symbol",
+    "region": "Oblasti",
+    "remove_bucket": "Odstranit kbelík",
+    "remove_bucket-tips": "Odebrat název kbelíku ze cesty při použití vlastního hostitele.",
+    "root_folder_path": "Kořenová složka",
+    "secret_access_key": "Tajný přístupový klíč",
+    "session_token": "Token relace",
+    "sign_url_expire": "URL znaku vyprší"
+  },
+  "SFTP": {
+    "address": "Adresa",
+    "ignore_symlink_error": "Ignorovat chybu symbolického odkazu",
+    "passphrase": "přístupová fráze",
+    "password": "Heslo",
+    "private_key": "Soukromý klíč",
+    "root_folder_path": "Kořenová složka",
+    "username": "Uživatelské jméno"
+  },
+  "SMB": {
+    "address": "Adresa",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "share_name": "Sdílet jméno",
+    "username": "Uživatelské jméno"
+  },
+  "Seafile": {
+    "address": "Adresa",
+    "password": "Heslo",
+    "repoId": "RepoId",
+    "repoPwd": "Repozitář",
+    "root_folder_path": "Kořenová složka",
+    "token": "Token",
+    "username": "Uživatelské jméno"
+  },
+  "Teambition": {
+    "cookie": "Cookie",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created": "Vytvořeno",
+      "fileName": "Název souboru",
+      "fileSize": "Velikost souboru",
+      "updated": "Aktualizováno"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "Asc": "Asc",
+      "Desc": "Desc"
+    },
+    "project_id": "ID projektu",
+    "region": "Oblasti",
+    "regions": {
+      "china": "Čísla",
+      "international": "Mezinárodní"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "use_s3_upload_method": "Použít metodu nahrávání s3"
+  },
+  "Terabox": {
+    "cookie": "Cookie",
+    "download_api": "Stáhnout api",
+    "download_apis": {
+      "crack": "Prach",
+      "official": "Úředník"
+    },
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "name": "Název",
+      "size": "Velikost",
+      "time": "Čas"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "root_folder_path": "Kořenová složka"
+  },
+  "Thunder": {
+    "captcha_token": "Captcha token",
+    "credit_key": "Kreditní klíč",
+    "credit_key-tips": "kreditní klíč, použitý pro přihlášení",
+    "device_id": "ID zařízení",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "username": "Uživatelské jméno"
+  },
+  "ThunderBrowser": {
+    "captcha_token": "Captcha token",
+    "password": "Heslo",
+    "remove_way": "Odstranit cestu",
+    "remove_ways": {
+      "delete": "Vymazat",
+      "trash": "Koš"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "safe_password": "Bezpečné heslo",
+    "use_video_url": "Použít URL videa",
+    "username": "Uživatelské jméno"
+  },
+  "ThunderBrowserExpert": {
+    "algorithms": "Algoritmy",
+    "algorithms-tips": "typ podpisu je algoritmy, toto je vyžadováno",
+    "captcha_sign": "Značka Captcha",
+    "captcha_sign-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "captcha_token": "Captcha token",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "client_version": "Verze klienta",
+    "device_id": "ID zařízení",
+    "download_user_agent": "Stáhnout uživatelského agent",
+    "login_type": "Typ přihlášení",
+    "login_types": {
+      "refresh_token": "Obnovit token",
+      "user": "Uživatel"
+    },
+    "package_name": "Název balíčku",
+    "password": "Heslo",
+    "password-tips": "typ přihlášení je uživatel, toto je vyžadováno",
+    "refresh_token": "Obnovit token",
+    "refresh_token-tips": "typ přihlášení je obnovit_token,toto je vyžadováno",
+    "remove_way": "Odstranit cestu",
+    "remove_ways": {
+      "delete": "Vymazat",
+      "trash": "Koš"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "safe_password": "Bezpečné heslo",
+    "safe_password-tips": "super bezpečné heslo",
+    "sign_type": "Typ podpisu",
+    "sign_types": {
+      "algorithms": "Algoritmy",
+      "captcha_sign": "Značka Captcha"
+    },
+    "timestamp": "Časové razítko",
+    "timestamp-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "use_video_url": "Použít URL videa",
+    "user_agent": "Uživatelský agent",
+    "username": "Uživatelské jméno",
+    "username-tips": "typ přihlášení je uživatel, toto je vyžadováno"
+  },
+  "ThunderExpert": {
+    "algorithms": "Algoritmy",
+    "algorithms-tips": "typ podpisu je algoritmy, toto je vyžadováno",
+    "captcha_sign": "Značka Captcha",
+    "captcha_sign-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "captcha_token": "Captcha token",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "client_version": "Verze klienta",
+    "credit_key": "Kreditní klíč",
+    "credit_key-tips": "kreditní klíč, použitý pro přihlášení",
+    "device_id": "ID zařízení",
+    "download_user_agent": "Stáhnout uživatelského agent",
+    "login_type": "Typ přihlášení",
+    "login_types": {
+      "refresh_token": "Obnovit token",
+      "user": "Uživatel"
+    },
+    "package_name": "Název balíčku",
+    "password": "Heslo",
+    "password-tips": "typ přihlášení je uživatel, toto je vyžadováno",
+    "refresh_token": "Obnovit token",
+    "refresh_token-tips": "typ přihlášení je obnovit_token,toto je vyžadováno",
+    "root_folder_id": "ID kořenové složky",
+    "sign_type": "Typ podpisu",
+    "sign_types": {
+      "algorithms": "Algoritmy",
+      "captcha_sign": "Značka Captcha"
+    },
+    "timestamp": "Časové razítko",
+    "timestamp-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "use_video_url": "Použít URL videa",
+    "user_agent": "Uživatelský agent",
+    "username": "Uživatelské jméno",
+    "username-tips": "typ přihlášení je uživatel, toto je vyžadováno"
+  },
+  "ThunderX": {
+    "captcha_token": "Captcha token",
+    "password": "Heslo",
+    "root_folder_id": "ID kořenové složky",
+    "use_video_url": "Použít URL videa",
+    "username": "Uživatelské jméno"
+  },
+  "ThunderXExpert": {
+    "algorithms": "Algoritmy",
+    "algorithms-tips": "typ podpisu je algoritmy, toto je vyžadováno",
+    "captcha_sign": "Značka Captcha",
+    "captcha_sign-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "captcha_token": "Captcha token",
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "client_version": "Verze klienta",
+    "device_id": "ID zařízení",
+    "download_user_agent": "Stáhnout uživatelského agent",
+    "login_type": "Typ přihlášení",
+    "login_types": {
+      "refresh_token": "Obnovit token",
+      "user": "Uživatel"
+    },
+    "package_name": "Název balíčku",
+    "password": "Heslo",
+    "password-tips": "typ přihlášení je uživatel, toto je vyžadováno",
+    "refresh_token": "Obnovit token",
+    "refresh_token-tips": "typ přihlášení je obnovit_token,toto je vyžadováno",
+    "root_folder_id": "ID kořenové složky",
+    "sign_type": "Typ podpisu",
+    "sign_types": {
+      "algorithms": "Algoritmy",
+      "captcha_sign": "Značka Captcha"
+    },
+    "timestamp": "Časové razítko",
+    "timestamp-tips": "znak typu je captcha_sign,toto je vyžadováno",
+    "use_video_url": "Použít URL videa",
+    "user_agent": "Uživatelský agent",
+    "username": "Uživatelské jméno",
+    "username-tips": "typ přihlášení je uživatel, toto je vyžadováno"
+  },
+  "Trainbit": {
+    "AUSHELLPORTAL": "AUSHELLPORTAL",
+    "apikey": "Apikey",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "UC": {
+    "cookie": "Cookie",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "file_name": "Název souboru",
+      "file_type": "Typ souboru",
+      "none": "Nic",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "root_folder_id": "ID kořenové složky"
+  },
+  "UCTV": {
+    "device_id": "ID zařízení",
+    "query_token": "Token dotazu",
+    "query_token-tips": "neupravujte'",
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky"
+  },
+  "USS": {
+    "anti_theft_chain_token": "Tisk řetězového řetězce proti krádeži",
+    "bucket": "Kbelík",
+    "endpoint": "Endpoint",
+    "operator_name": "Název provozovatele",
+    "operator_password": "Heslo operátora",
+    "root_folder_path": "Kořenová složka",
+    "sign_url_expire": "URL znaku vyprší"
+  },
+  "UrlTree": {
+    "head_size": "Velikost hlavy",
+    "head_size-tips": "Použijte hlavičku pro získání velikosti souboru, ale může být neúspěšný.",
+    "url_structure": "Struktura URL",
+    "url_structure-tips": "structure:FolderName:\n  [FileName:][FileSize:][Změně:]Url",
+    "writable": "Zapisovatelný"
+  },
+  "VTencent": {
+    "cookie": "Cookie",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "CreatTime": "CreatTime",
+      "Name": "Název",
+      "Size": "Velikost",
+      "UpdateTime": "Aktualizovat čas"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "Asc": "Asc",
+      "Desc": "Desc"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "tf_uid": "Tf uid"
+  },
+  "Virtual": {
+    "max_file_size": "Maximální velikost souboru",
+    "min_file_size": "Minimální velikost souboru",
+    "num_file": "Num soubor",
+    "num_folder": "Číslo složky",
+    "root_folder_path": "Kořenová složka"
+  },
+  "WebDav": {
+    "address": "Adresa",
+    "password": "Heslo",
+    "root_folder_path": "Kořenová složka",
+    "tls_insecure_skip_verify": "Tls nezabezpečené přeskočení ověření",
+    "username": "Uživatelské jméno",
+    "vendor": "Dodavatel",
+    "vendors": {
+      "other": "Ostatní",
+      "sharepoint": "Sdílený bod"
+    }
+  },
+  "WeiYun": {
+    "cookies": "Cookies",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "name": "Název",
+      "size": "Velikost",
+      "updated_at": "Aktualizováno v"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "root_folder_id": "ID kořenové složky",
+    "upload_thread": "Nahrát vlákno",
+    "upload_thread-tips": "4<=thread<=32"
+  },
+  "WoPan": {
+    "access_token": "Přístupový token",
+    "family_id": "ID rodiny",
+    "family_id-tips": "Ponechte prázdné, pokud chcete použít svůj osobní disk",
+    "refresh_token": "Obnovit token",
+    "root_folder_id": "ID kořenové složky",
+    "sort_rule": "Řazení",
+    "sort_rules": {
+      "name_asc": "Název vzestupně",
+      "name_desc": "Jméno sestupně",
+      "size_asc": "Size asc",
+      "size_desc": "Velikost sestupně",
+      "time_asc": "Čas vzestupně",
+      "time_desc": "Čas sestupu"
+    }
+  },
+  "YandexDisk": {
+    "client_id": "ID klienta",
+    "client_secret": "Tajný klíč klienta",
+    "order_by": "Řadit podle",
+    "order_bys": {
+      "created": "Vytvořeno",
+      "modified": "Upraveno",
+      "name": "Název",
+      "path": "Cesta",
+      "size": "Velikost"
+    },
+    "order_direction": "Směr řazení",
+    "order_directions": {
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "refresh_token": "Obnovit token",
+    "root_folder_path": "Kořenová složka"
+  },
+  "config": {
+    "115 Cloud": {},
+    "115 Open": {},
+    "115 Share": {},
+    "123Pan": {},
+    "123PanLink": {},
+    "123PanShare": {},
+    "139Yun": {},
+    "189Cloud": {
+      "alert": "Pokud tento ovladač nefunguje, můžete se pokusit použít ovladač 189PC."
+    },
+    "189CloudPC": {},
+    "AList V2": {},
+    "AList V3": {},
+    "Alias": {},
+    "Aliyundrive": {
+      "alert": "V tomto ovladači může dojít k nekonečné chybě ve smyčce.\nDeprecated, již není udržován a bude odstraněn v budoucí verzi.\nDoporučujeme použít oficiální ovladač AliyundriveOpen."
+    },
+    "AliyundriveOpen": {},
+    "AliyundriveShare": {},
+    "Azure Blob Storage": {},
+    "BaiduNetdisk": {},
+    "BaiduPhoto": {},
+    "BaiduShare": {},
+    "ChaoXingGroupDrive": {},
+    "Cloudreve": {},
+    "Cloudreve V4": {},
+    "Crypt": {},
+    "Doge": {},
+    "Doubao": {},
+    "DoubaoShare": {},
+    "Dropbox": {},
+    "FTP": {},
+    "FebBox": {},
+    "FeijiPan": {},
+    "GitHub API": {},
+    "GitHub Releases": {},
+    "GoogleDrive": {},
+    "GooglePhoto": {},
+    "HalalCloud": {},
+    "ILanZou": {},
+    "IPFS API": {},
+    "KodBox": {},
+    "Lanzou": {},
+    "Lark": {},
+    "LenovoNasShare": {},
+    "Local": {},
+    "MediaTrack": {},
+    "Mega_nz": {},
+    "Misskey": {},
+    "MoPan": {
+      "alert": "Tento síťový disk může uložit vaše heslo do jasného textu. Prosím pečlivě nastavte své heslo"
+    },
+    "NeteaseMusic": {},
+    "Onedrive": {},
+    "Onedrive Sharelink": {},
+    "OnedriveAPP": {},
+    "PikPak": {},
+    "PikPakShare": {},
+    "Quark": {},
+    "QuarkTV": {},
+    "Quqi": {},
+    "S3": {},
+    "SFTP": {},
+    "SMB": {},
+    "Seafile": {},
+    "Teambition": {},
+    "Terabox": {},
+    "Thunder": {},
+    "ThunderBrowser": {},
+    "ThunderBrowserExpert": {},
+    "ThunderExpert": {},
+    "ThunderX": {},
+    "ThunderXExpert": {},
+    "Trainbit": {},
+    "UC": {},
+    "UCTV": {},
+    "USS": {},
+    "UrlTree": {},
+    "VTencent": {},
+    "Virtual": {},
+    "WebDav": {},
+    "WeiYun": {},
+    "WoPan": {},
+    "YandexDisk": {}
+  },
+  "drivers": {
+    "115 Cloud": "115 Cloud",
+    "115 Open": "115 Otevřeno",
+    "115 Share": "115 Akcie",
+    "123Pan": "123Pan",
+    "123PanLink": "123PanLink",
+    "123PanShare": "123PanShare",
+    "139Yun": "139Yun",
+    "189Cloud": "189Cloud",
+    "189CloudPC": "189CloudPC",
+    "AList V2": "AList V2",
+    "AList V3": "AList V3",
+    "Alias": "Alias",
+    "Aliyundrive": "Aliyundrive",
+    "AliyundriveOpen": "AliyundriveOpen",
+    "AliyundriveShare": "AliyundriveShare",
+    "Azure Blob Storage": "Úložiště Azure Blob",
+    "BaiduNetdisk": "BaiduNetdisk",
+    "BaiduPhoto": "BaiduFotka",
+    "BaiduShare": "BaiduShare",
+    "ChaoXingGroupDrive": "ChaoXingGroupDrive",
+    "Cloudreve": "Cloudreve",
+    "Cloudreve V4": "Cloudreve V4",
+    "Crypt": "Kryt",
+    "Doge": "Doge",
+    "Doubao": "Doubao",
+    "DoubaoShare": "DoubaoShare",
+    "Dropbox": "Dropbox",
+    "FTP": "FTP",
+    "FebBox": "FebBox",
+    "FeijiPan": "FeijiPan",
+    "GitHub API": "GitHub API",
+    "GitHub Releases": "GitHub vydání",
+    "GoogleDrive": "GoogleDrive",
+    "GooglePhoto": "GooglePhoto",
+    "HalalCloud": "HalalCloud",
+    "ILanZou": "ILanZou",
+    "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
+    "Lanzou": "Lanzou",
+    "Lark": "Lark",
+    "LenovoNasShare": "LenovoNasShare",
+    "Local": "Místní",
+    "MediaTrack": "MediaTrack",
+    "Mega_nz": "Mega nz",
+    "Misskey": "Misskey",
+    "MoPan": "MoPan",
+    "NeteaseMusic": "NeteaseMusic",
+    "Onedrive": "Jednodisk",
+    "Onedrive Sharelink": "Onedrive Sharelink",
+    "OnedriveAPP": "OnedriveAPP",
+    "PikPak": "PikPak",
+    "PikPakShare": "PikPakShare",
+    "Quark": "Křemen",
+    "QuarkTV": "QuarkTV",
+    "Quqi": "Quqi",
+    "S3": "S3",
+    "SFTP": "SFTP",
+    "SMB": "SMB",
+    "Seafile": "Námořní",
+    "Teambition": "Teambice",
+    "Terabox": "Terabox",
+    "Thunder": "Bouře",
+    "ThunderBrowser": "Prohlížeč Thunderser",
+    "ThunderBrowserExpert": "Expert na ThunderBrowsert",
+    "ThunderExpert": "ThunderExpert",
+    "ThunderX": "ThunderX",
+    "ThunderXExpert": "ThunderXExpert",
+    "Trainbit": "Tréninek",
+    "UC": "UC",
+    "UCTV": "UCTV",
+    "USS": "USS",
+    "UrlTree": "Urlstrom",
+    "VTencent": "Vencent",
+    "Virtual": "Virtuální",
+    "WebDav": "WebDav",
+    "WeiYun": "WeiYun",
+    "WoPan": "WoPan",
+    "YandexDisk": "YandexDisk"
+  }
+}

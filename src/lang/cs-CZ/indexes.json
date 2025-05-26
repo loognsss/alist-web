@@ -1,0 +1,15 @@
+{
+  "search_index": "Vyhledat index",
+  "current": "Aktuální indexy",
+  "build": "Vytvořit indexy",
+  "rebuild": "Znovu vytvořit indexy",
+  "paths_to_update": "Cesty k aktualizaci",
+  "max_depth": "Maximální hloubka",
+  "update": "Aktualizovat indexy",
+  "obj_count": "Počet objektů",
+  "last_done_time": "Poslední dokončený čas",
+  "unknown": "Neznámý",
+  "stop": "Zastavit",
+  "clear": "Vyčistit",
+  "error": "Chyba"
+}

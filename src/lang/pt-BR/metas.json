@@ -1,0 +1,12 @@
+{
+  "path": "Caminho",
+  "password": "Senha",
+  "write": "Salvar",
+  "hide": "Ocultar",
+  "readme": "Leia-me",
+  "readme_help": "Renderizar markdown, conteúdo de suporte ou link na parte inferior",
+  "header": "Cabeçalho",
+  "header_help": "Renderizar markdown, conteúdo de suporte ou link no topo",
+  "apply_sub": "Aplicar à subpasta",
+  "hide_help": "Uma expressão regular por linha"
+}

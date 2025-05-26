@@ -1,0 +1,65 @@
+{
+  "offline_download": "Baixar arquivo para a máquina local",
+  "offline_download_transfer": "Transferir arquivo baixado para o armazenamento correspondente",
+  "upload": "Enviar arquivo para o armazenamento correspondente",
+  "copy": "Copiar arquivo de um armazenamento para outro armazenamento",
+  "decompress": "Baixar e descompactar um arquivo",
+  "decompress_upload": "Enviar arquivo extraído no armazenamento de destino",
+  "done": "Concluído",
+  "undone": "Executando",
+  "clear_succeeded": "Limpeza bem sucedida",
+  "retry": "Repetir",
+  "retry_failed": "Falha ao Repetir",
+  "state": {
+    "0": "Pendente",
+    "1": "Executando",
+    "2": "Sucesso",
+    "3": "Cancelando",
+    "4": "Cancelado",
+    "5": "Erros",
+    "6": "Falhando",
+    "7": "Falhou",
+    "8": "Aguardando",
+    "9": "Anterior"
+  },
+  "retry_selected": "Tentar novamente selecionado",
+  "cancel_selected": "Cancelar Selecionado",
+  "delete_selected": "Excluir Selecionado",
+  "filter": "Filtro",
+  "expand": "Expandir",
+  "fold": "Recolher",
+  "expand_all": "Expandir tudo",
+  "fold_all": "Dobrar tudo",
+  "attr": {
+    "name": "Nome",
+    "creator": "Criador",
+    "state": "Estado",
+    "progress": "Progresso",
+    "speed": "Velocidade",
+    "operation": "Operação",
+    "copy": {
+      "src": "Caminho de Origem",
+      "dst": "Caminho de Destino"
+    },
+    "upload": {
+      "path": "Caminho"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "Caminho de Destino",
+      "transfer_src": "Caminho de Origem",
+      "transfer_src_local": "Caminho de origem (Local)",
+      "transfer_dst": "Caminho de Destino"
+    },
+    "decompress": {
+      "src": "Caminho de Origem",
+      "dst": "Caminho de Destino",
+      "inner": "Caminho Interno",
+      "password": "Senha de Extração"
+    },
+    "time_elapsed": "Tempo Decorrido",
+    "status": "Status",
+    "err": "Erro"
+  },
+  "show_only_mine": "Mostrar apenas minhas tarefas"
+}
