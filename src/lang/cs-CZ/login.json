@@ -1,13 +1,13 @@
 {
-  "login_to": "Login to the",
-  "username-tips": "Input your username",
-  "password-tips": "Input your password",
-  "otp-tips": "Input your OTP Code",
-  "remember": "Remember me",
-  "forget": "Forget password?",
+  "login_to": "Přihlásit se k",
+  "username-tips": "Zadejte své uživatelské jméno",
+  "password-tips": "Zadejte své heslo",
+  "otp-tips": "Vložte svůj OTP kód",
+  "remember": "Zapamatovat si mě",
+  "forget": "Zapomenuté heslo?",
   "forget_url": "https://alist.nn.ci/faq/howto.html#how-to-get-password-if-i-forget-it",
-  "clear": "Clear",
-  "login": "Login",
-  "use_guest": "Browse as a guest",
-  "success": "Login successfully"
+  "clear": "Vyčistit",
+  "login": "Přihlásit se",
+  "use_guest": "Procházet jako hosta",
+  "success": "Přihlášení bylo úspěšné"
 }
