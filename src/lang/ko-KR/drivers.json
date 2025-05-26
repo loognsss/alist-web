@@ -24,14 +24,14 @@
   "115 Open": {
     "limit_rate": "Limit rate",
     "limit_rate-tips": "limit all api request rate ([limit]r/1s)",
-    "order_by": "Order by",
+    "order_by": "정렬",
     "order_bys": {
       "file_name": "File name",
       "file_size": "File size",
       "file_type": "File type",
       "user_utime": "User utime"
     },
-    "order_direction": "Order direction",
+    "order_direction": "정렬 방향",
     "order_directions": {
       "asc": "Asc",
       "desc": "Desc"
@@ -161,7 +161,7 @@
   },
   "Alias": {
     "download_concurrency": "Download concurrency",
-    "download_concurrency-tips": "Need to enable proxy",
+    "download_concurrency-tips": "프록시가 필요합니다",
     "download_part_size": "Download part size",
     "download_part_size-tips": "Need to enable proxy. Unit: KB",
     "paths": "Paths",
@@ -329,19 +329,19 @@
     "enable_folder_size": "Enable folder size",
     "enable_thumb": "Enable thumb",
     "enable_version_upload": "Enable version upload",
-    "order_by": "Order by",
+    "order_by": "정렬",
     "order_bys": {
       "created_at": "Created at",
-      "name": "Name",
-      "size": "Size",
+      "name": "이름",
+      "size": "크기",
       "updated_at": "Updated at"
     },
-    "order_direction": "Order direction",
+    "order_direction": "정렬 방향",
     "order_directions": {
       "asc": "Asc",
       "desc": "Desc"
     },
-    "password": "Password",
+    "password": "비밀번호",
     "refresh_token": "Refresh token",
     "root_folder_path": "Root folder path",
     "username": "Username"
@@ -478,7 +478,7 @@
     "rename_commit_message": "Rename commit message",
     "repo": "Repo",
     "root_folder_path": "Root folder path",
-    "token": "Token"
+    "token": "토큰"
   },
   "GitHub Releases": {
     "gh_proxy": "Gh proxy",
@@ -490,7 +490,7 @@
     "show_all_version-tips": "show all versions",
     "show_readme": "Show readme",
     "show_readme-tips": "show README、LICENSE file",
-    "token": "Token",
+    "token": "토큰",
     "token-tips": "GitHub token, if you want to access private repositories or increase the rate limit"
   },
   "GoogleDrive": {
@@ -544,7 +544,7 @@
   },
   "KodBox": {
     "address": "Address",
-    "password": "Password",
+    "password": "비밀번호",
     "root_folder_path": "Root folder path",
     "username": "Username"
   },
@@ -657,45 +657,45 @@
     "song_limit-tips": "only get 200 songs by default"
   },
   "Onedrive": {
-    "chunk_size": "Chunk size",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "custom_host": "Custom host",
-    "custom_host-tips": "Custom host for onedrive download link",
-    "is_sharepoint": "Is sharepoint",
-    "redirect_uri": "Redirect uri",
-    "refresh_token": "Refresh token",
-    "region": "Region",
+    "chunk_size": "조각 크기",
+    "client_id": "클라이언트 ID",
+    "client_secret": "클라이언트 시크릿",
+    "custom_host": "사용자 지정 호스트",
+    "custom_host-tips": "원드라이브 다운로드 링크를 위한 사용자 지정 호스트",
+    "is_sharepoint": "쉐어포인트 여부",
+    "redirect_uri": "리디렉션 URI",
+    "refresh_token": "리프레시 토큰",
+    "region": "지역",
     "regions": {
-      "cn": "Cn",
-      "de": "De",
-      "global": "Global",
-      "us": "Us"
+      "cn": "중국",
+      "de": "독일",
+      "global": "글로벌",
+      "us": "미국"
     },
-    "root_folder_path": "Root folder path",
-    "site_id": "Site id"
+    "root_folder_path": "루트 폴더 경로",
+    "site_id": "사이트 ID"
   },
   "Onedrive Sharelink": {
-    "password": "Password",
+    "password": "비밀번호",
     "root_folder_path": "Root folder path",
     "url": "Url"
   },
   "OnedriveAPP": {
-    "chunk_size": "Chunk size",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "custom_host": "Custom host",
-    "custom_host-tips": "Custom host for onedrive download link",
-    "email": "Email",
-    "region": "Region",
+    "chunk_size": "조각 크기",
+    "client_id": "클라이언트 ID",
+    "client_secret": "클라이언트 시크릿",
+    "custom_host": "사용자 지정 호스트",
+    "custom_host-tips": "원드라이브 다운로드 링크를 위한 사용자 지정 호스트",
+    "email": "이메일",
+    "region": "지역",
     "regions": {
-      "cn": "Cn",
-      "de": "De",
-      "global": "Global",
-      "us": "Us"
+      "cn": "중국",
+      "de": "독일",
+      "global": "글로벌",
+      "us": "미국"
     },
-    "root_folder_path": "Root folder path",
-    "tenant_id": "Tenant id"
+    "root_folder_path": "루트 폴더 경로",
+    "tenant_id": "테넌트 ID"
   },
   "PikPak": {
     "captcha_token": "Captcha token",
