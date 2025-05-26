@@ -1,47 +1,47 @@
 {
   "common": {
-    "mount_path": "Mount Path",
-    "mount_path-tips": "The path you want to mount to, it is unique and cannot be repeated",
-    "driver": "Driver",
-    "order": "Order",
-    "order-tips": "Use to sort",
-    "status": "Status",
-    "remark": "Remark",
-    "cache_expiration": "Cache Expiration",
-    "cache_expiration-tips": "The cache expiration time for this storage(minutes)",
-    "down_proxy_url": "Download proxy URL",
-    "web_proxy": "Web proxy",
-    "webdav_policy": "WebDAV policy",
-    "proxy_range": "Proxy Range",
-    "proxy_range-tips": "Need to enable proxy",
+    "mount_path": "マウントのパス",
+    "mount_path-tips": "マウント先のパスは一意であり、繰り返す事はできません",
+    "driver": "ドライバ",
+    "order": "オーダー",
+    "order-tips": "並べ替えに使用します",
+    "status": "状態",
+    "remark": "再マーク",
+    "cache_expiration": "キャッシュの有効期限",
+    "cache_expiration-tips": "このストレージのキャッシュの有効期限です",
+    "down_proxy_url": "ダウンロードプロキシURL",
+    "web_proxy": "Webプロキシ",
+    "webdav_policy": "WebDAVポリシー",
+    "proxy_range": "プロキシの範囲",
+    "proxy_range-tips": "プロキシを有効化する必要があります",
     "webdav_policys": {
-      "302_redirect": "302 redirect",
-      "use_proxy_url": "use proxy URL",
-      "native_proxy": "native proxy"
+      "302_redirect": "302リダイレクト",
+      "use_proxy_url": "プロキシURLを使用する",
+      "native_proxy": "ネイティブプロキシ"
     },
-    "order_by": "Order by",
+    "order_by": "オーダー方法",
     "order_bys": {
-      "name": "Name",
-      "size": "Size",
-      "modified": "Modified"
+      "name": "名前",
+      "size": "サイズ",
+      "modified": "最終更新"
     },
-    "order_direction": "Order direction",
+    "order_direction": "オーダーの方向",
     "order_directions": {
-      "asc": "Ascending",
-      "desc": "Descending"
+      "asc": "昇順",
+      "desc": "降順"
     },
-    "extract_folder": "Extract folder",
+    "extract_folder": "フォルダを展開",
     "extract_folders": {
-      "front": "Extract to front",
-      "back": "Extract to back"
+      "front": "手前に展開",
+      "back": "後方に展開"
     },
-    "enable_sign": "Enable sign",
-    "disable_index": "Disable index"
+    "enable_sign": "署名を有効化",
+    "disable_index": "インデックスを無効にする"
   },
   "other": {
-    "start_load_success": "Start loading",
-    "load_all": "Reload All",
-    "filter_by_driver": "Filter by driver",
-    "table_layout": "Table layout"
+    "start_load_success": "読み込みを開始",
+    "load_all": "すべて再読み込み",
+    "filter_by_driver": "ドライバで絞り込む",
+    "table_layout": "テーブルのレイアウト"
   }
 }
