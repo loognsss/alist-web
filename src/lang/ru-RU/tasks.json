@@ -1,65 +1,65 @@
 {
-  "offline_download": "Download file to local machine",
-  "offline_download_transfer": "Transfer downloaded file to corresponding storage",
-  "upload": "Upload file to corresponding storage",
-  "copy": "Copy file from a storage to another storage",
-  "decompress": "Download and decompress an archive file",
-  "decompress_upload": "Upload extracted file into target storage",
-  "done": "Completed",
-  "undone": "Running",
-  "clear_succeeded": "Clear Succeeded",
-  "retry": "Retry",
-  "retry_failed": "Retry Failed",
+  "offline_download": "Загрузить файл на локальную машину",
+  "offline_download_transfer": "Передача загруженных файлов на соответствующее хранилище",
+  "upload": "Загрузить файл в соответствующее хранилище",
+  "copy": "Копировать файл из хранилища в другое хранилище",
+  "decompress": "Скачать и распаковать архивный файл",
+  "decompress_upload": "Загрузить извлеченный файл в целевое хранилище",
+  "done": "Выполнено",
+  "undone": "Выполняется",
+  "clear_succeeded": "Успешно очищено",
+  "retry": "Повторить",
+  "retry_failed": "Повтор не удался",
   "state": {
-    "0": "Pending",
-    "1": "Running",
-    "2": "Succeeded",
-    "3": "Canceling",
-    "4": "Canceled",
-    "5": "Errored",
-    "6": "Failing",
-    "7": "Failed",
-    "8": "WaitingRetry",
-    "9": "BeforeRetry"
+    "0": "В ожидании",
+    "1": "Выполняется",
+    "2": "Успешно",
+    "3": "Отмена",
+    "4": "Отменено",
+    "5": "Ошибка",
+    "6": "Неудачный",
+    "7": "Неудачный",
+    "8": "Ожидание повтора",
+    "9": "Заранее"
   },
-  "retry_selected": "Retry Selected",
-  "cancel_selected": "Cancel Selected",
-  "delete_selected": "Delete Selected",
-  "filter": "Filter",
-  "expand": "Expand",
-  "fold": "Fold",
-  "expand_all": "Expand All",
-  "fold_all": "Fold All",
+  "retry_selected": "Повторить выбранное",
+  "cancel_selected": "Отменить выбранные",
+  "delete_selected": "Удалить выбранные",
+  "filter": "Фильтр",
+  "expand": "Развернуть",
+  "fold": "Свернуть",
+  "expand_all": "Развернуть все",
+  "fold_all": "Свернуть все",
   "attr": {
-    "name": "Name",
-    "creator": "Creator",
-    "state": "State",
-    "progress": "Progress",
-    "speed": "Speed",
-    "operation": "Operation",
+    "name": "Наименование",
+    "creator": "Создатель",
+    "state": "Область",
+    "progress": "Прогресс",
+    "speed": "Скорость",
+    "operation": "Операция",
     "copy": {
-      "src": "Source Path",
-      "dst": "Destination Path"
+      "src": "Исходный путь",
+      "dst": "Путь назначения"
     },
     "upload": {
-      "path": "Path"
+      "path": "Путь"
     },
     "offline_download": {
       "url": "URL",
-      "path": "Destination Path",
-      "transfer_src": "Source Path",
-      "transfer_src_local": "Source Path (Local)",
-      "transfer_dst": "Destination Path"
+      "path": "Путь назначения",
+      "transfer_src": "Исходный путь",
+      "transfer_src_local": "Путь источника (локальный)",
+      "transfer_dst": "Путь назначения"
     },
     "decompress": {
-      "src": "Source Path",
-      "dst": "Destination Path",
-      "inner": "Inner Path",
-      "password": "Extraction Password"
+      "src": "Исходный путь",
+      "dst": "Путь назначения",
+      "inner": "Внутренний путь",
+      "password": "Извлечь пароль"
     },
-    "time_elapsed": "Time Elapsed",
-    "status": "Status",
-    "err": "Error"
+    "time_elapsed": "Прошло времени",
+    "status": "Статус",
+    "err": "Ошибка"
   },
-  "show_only_mine": "Show only my tasks"
+  "show_only_mine": "Показать только мои задачи"
 }
