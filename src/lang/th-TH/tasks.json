@@ -1,26 +1,26 @@
 {
-  "offline_download": "Download file to local machine",
-  "offline_download_transfer": "Transfer downloaded file to corresponding storage",
-  "upload": "Upload file to corresponding storage",
-  "copy": "Copy file from a storage to another storage",
+  "offline_download": "ดาวน์โหลดไฟล์ไปยังอุปกรณ์ของคุณ",
+  "offline_download_transfer": "ถ่ายโอนไฟล์ที่ดาวน์โหลดไปยังที่เก็บที่สอดคล้องกัน",
+  "upload": "อัปโหลดไฟล์ไปยังที่เก็บที่สอดคล้องกัน",
+  "copy": "คัดลอกไฟล์จากที่เก็บหนึ่งไปยังอีกที่เก็บหนึ่ง",
   "decompress": "Download and decompress an archive file",
   "decompress_upload": "Upload extracted file into target storage",
-  "done": "Completed",
-  "undone": "Running",
-  "clear_succeeded": "Clear Succeeded",
-  "retry": "Retry",
-  "retry_failed": "Retry Failed",
+  "done": "เสร็จสิ้น",
+  "undone": "กำลังทำงาน...",
+  "clear_succeeded": "ลบสำเร็จแล้ว",
+  "retry": "ลองใหม่",
+  "retry_failed": "ลองใหม่รายการที่ล้มเหลว",
   "state": {
-    "0": "Pending",
-    "1": "Running",
-    "2": "Succeeded",
-    "3": "Canceling",
-    "4": "Canceled",
-    "5": "Errored",
-    "6": "Failing",
-    "7": "Failed",
-    "8": "WaitingRetry",
-    "9": "BeforeRetry"
+    "0": "กำลังรอ...",
+    "1": "กำลังทำงาน...",
+    "2": "สำเร็จ",
+    "3": "กำลังยกเลิก...",
+    "4": "ยกเลิกแล้ว",
+    "5": "ข้อผิดพลาด",
+    "6": "ล้มเหลว...",
+    "7": "ล้มเหลว",
+    "8": "รอการลองใหม่",
+    "9": "กำลังทำการลองใหม่ก่อนหน้า"
   },
   "retry_selected": "Retry Selected",
   "cancel_selected": "Cancel Selected",
@@ -31,7 +31,7 @@
   "expand_all": "Expand All",
   "fold_all": "Fold All",
   "attr": {
-    "name": "Name",
+    "name": "ชื่อ",
     "creator": "Creator",
     "state": "State",
     "progress": "Progress",
@@ -42,7 +42,7 @@
       "dst": "Destination Path"
     },
     "upload": {
-      "path": "Path"
+      "path": "เส้นทาง"
     },
     "offline_download": {
       "url": "URL",
@@ -58,8 +58,8 @@
       "password": "Extraction Password"
     },
     "time_elapsed": "Time Elapsed",
-    "status": "Status",
-    "err": "Error"
+    "status": "สถานะ",
+    "err": "ข้อผิดพลาด"
   },
   "show_only_mine": "Show only my tasks"
 }
