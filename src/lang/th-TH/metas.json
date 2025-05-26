@@ -1,12 +1,12 @@
 {
-  "path": "Path",
-  "password": "Password",
-  "write": "Write",
-  "hide": "Hide",
-  "readme": "Readme",
-  "readme_help": "Render a markdown at the bottom, support content or link",
-  "header": "Header",
-  "header_help": "Render a markdown at the top, support content or link",
-  "apply_sub": "Apply to sub folder",
-  "hide_help": "One regular expression per line"
+  "path": "เส้นทาง",
+  "password": "รหัสผ่าน",
+  "write": "เขียน",
+  "hide": "ซ่อน",
+  "readme": "คำอธิบาย",
+  "readme_help": "เรนเดอร์ Markdown ที่ด้านล่าง รองรับเนื้อหาหรือลิงก์",
+  "header": "คำอธิบายด้านบน",
+  "header_help": "เรนเดอร์ Markdown ที่ด้านบน รองรับเนื้อหาหรือลิงก์",
+  "apply_sub": "ใช้กับโฟลเดอร์ย่อย",
+  "hide_help": "หนึ่งบรรทัดต่อหนึ่ง Regular Expression"
 }
