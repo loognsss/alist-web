@@ -1,47 +1,47 @@
 {
   "common": {
-    "mount_path": "Mount Path",
-    "mount_path-tips": "The path you want to mount to, it is unique and cannot be repeated",
-    "driver": "Driver",
-    "order": "Order",
-    "order-tips": "Use to sort",
-    "status": "Status",
-    "remark": "Remark",
-    "cache_expiration": "Cache Expiration",
-    "cache_expiration-tips": "The cache expiration time for this storage(minutes)",
-    "down_proxy_url": "Download proxy URL",
-    "web_proxy": "Web proxy",
-    "webdav_policy": "WebDAV policy",
+    "mount_path": "Připojit cestu",
+    "mount_path-tips": "Cesta, ke které chcete připojit, je jedinečná a nelze ji opakovat.",
+    "driver": "Řidič",
+    "order": "Objednávka",
+    "order-tips": "Použít k řazení",
+    "status": "Stav",
+    "remark": "Poznámky",
+    "cache_expiration": "Platnost mezipaměti",
+    "cache_expiration-tips": "Doba vypršení platnosti této paměti (minuty)",
+    "down_proxy_url": "Stáhnout proxy URL",
+    "web_proxy": "Webové proxy",
+    "webdav_policy": "Zásady WebDAV",
     "proxy_range": "Proxy Range",
-    "proxy_range-tips": "Need to enable proxy",
+    "proxy_range-tips": "Je třeba povolit proxy",
     "webdav_policys": {
-      "302_redirect": "302 redirect",
-      "use_proxy_url": "use proxy URL",
-      "native_proxy": "native proxy"
+      "302_redirect": "302 přesměrování",
+      "use_proxy_url": "použít proxy URL",
+      "native_proxy": "nativní proxy"
     },
-    "order_by": "Order by",
+    "order_by": "Řadit podle",
     "order_bys": {
-      "name": "Name",
-      "size": "Size",
-      "modified": "Modified"
+      "name": "Název",
+      "size": "Velikost",
+      "modified": "Upraveno"
     },
-    "order_direction": "Order direction",
+    "order_direction": "Směr řazení",
     "order_directions": {
-      "asc": "Ascending",
-      "desc": "Descending"
+      "asc": "Vzestupně",
+      "desc": "sestupně"
     },
-    "extract_folder": "Extract folder",
+    "extract_folder": "Extrahovat složku",
     "extract_folders": {
-      "front": "Extract to front",
-      "back": "Extract to back"
+      "front": "Extrahovat do popředí",
+      "back": "Rozbalit zpět"
     },
-    "enable_sign": "Enable sign",
-    "disable_index": "Disable index"
+    "enable_sign": "Povolit značku",
+    "disable_index": "Zakázat index"
   },
   "other": {
-    "start_load_success": "Start loading",
-    "load_all": "Reload All",
-    "filter_by_driver": "Filter by driver",
-    "table_layout": "Table layout"
+    "start_load_success": "Začít načítání",
+    "load_all": "Znovu načíst vše",
+    "filter_by_driver": "Filtrovat podle řidiče",
+    "table_layout": "Rozložení tabulky"
   }
 }
