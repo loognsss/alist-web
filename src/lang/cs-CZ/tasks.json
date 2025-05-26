@@ -1,65 +1,65 @@
 {
-  "offline_download": "Download file to local machine",
-  "offline_download_transfer": "Transfer downloaded file to corresponding storage",
-  "upload": "Upload file to corresponding storage",
-  "copy": "Copy file from a storage to another storage",
-  "decompress": "Download and decompress an archive file",
-  "decompress_upload": "Upload extracted file into target storage",
-  "done": "Completed",
-  "undone": "Running",
-  "clear_succeeded": "Clear Succeeded",
-  "retry": "Retry",
-  "retry_failed": "Retry Failed",
+  "offline_download": "Stáhnout soubor do místního počítače",
+  "offline_download_transfer": "Přenos staženého souboru do odpovídajícího úložiště",
+  "upload": "Nahrát soubor do odpovídajícího úložiště",
+  "copy": "Kopírovat soubor z úložiště do jiného úložiště",
+  "decompress": "Stáhnout a rozbalit archivní soubor",
+  "decompress_upload": "Nahrát rozbalený soubor do cílového úložiště",
+  "done": "Dokončeno",
+  "undone": "Běh",
+  "clear_succeeded": "Vymazání bylo úspěšné",
+  "retry": "Opakovat",
+  "retry_failed": "Opakování se nezdařilo",
   "state": {
-    "0": "Pending",
-    "1": "Running",
-    "2": "Succeeded",
-    "3": "Canceling",
-    "4": "Canceled",
-    "5": "Errored",
-    "6": "Failing",
-    "7": "Failed",
-    "8": "WaitingRetry",
-    "9": "BeforeRetry"
+    "0": "Nevyřízeno",
+    "1": "Běh",
+    "2": "Úspěšně",
+    "3": "Rušení",
+    "4": "Zrušeno",
+    "5": "Chybný",
+    "6": "Selhání",
+    "7": "Selhalo",
+    "8": "Opakování čekání",
+    "9": "Opakování"
   },
-  "retry_selected": "Retry Selected",
-  "cancel_selected": "Cancel Selected",
-  "delete_selected": "Delete Selected",
-  "filter": "Filter",
-  "expand": "Expand",
-  "fold": "Fold",
-  "expand_all": "Expand All",
-  "fold_all": "Fold All",
+  "retry_selected": "Opakovat vybrané",
+  "cancel_selected": "Zrušit vybrané",
+  "delete_selected": "Odstranit vybrané",
+  "filter": "Filtr",
+  "expand": "Rozbalit",
+  "fold": "Skladovat",
+  "expand_all": "Rozbalit vše",
+  "fold_all": "Složit vše",
   "attr": {
-    "name": "Name",
-    "creator": "Creator",
-    "state": "State",
-    "progress": "Progress",
-    "speed": "Speed",
-    "operation": "Operation",
+    "name": "Název",
+    "creator": "Tvůrce",
+    "state": "Stát",
+    "progress": "Průběh",
+    "speed": "Rychlost",
+    "operation": "Operace",
     "copy": {
-      "src": "Source Path",
-      "dst": "Destination Path"
+      "src": "Zdrojová cesta",
+      "dst": "Cílová cesta"
     },
     "upload": {
-      "path": "Path"
+      "path": "Cesta"
     },
     "offline_download": {
       "url": "URL",
-      "path": "Destination Path",
-      "transfer_src": "Source Path",
-      "transfer_src_local": "Source Path (Local)",
-      "transfer_dst": "Destination Path"
+      "path": "Cílová cesta",
+      "transfer_src": "Zdrojová cesta",
+      "transfer_src_local": "Zdrojová cesta (Lokální)",
+      "transfer_dst": "Cílová cesta"
     },
     "decompress": {
-      "src": "Source Path",
-      "dst": "Destination Path",
-      "inner": "Inner Path",
-      "password": "Extraction Password"
+      "src": "Zdrojová cesta",
+      "dst": "Cílová cesta",
+      "inner": "Vnitřní cesta",
+      "password": "Rozbalovací heslo"
     },
-    "time_elapsed": "Time Elapsed",
-    "status": "Status",
-    "err": "Error"
+    "time_elapsed": "Uplynulý čas",
+    "status": "Stav",
+    "err": "Chyba"
   },
-  "show_only_mine": "Show only my tasks"
+  "show_only_mine": "Zobrazit pouze mé úkoly"
 }
