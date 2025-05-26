@@ -1,65 +1,65 @@
 {
-  "offline_download": "Download file to local machine",
-  "offline_download_transfer": "Transfer downloaded file to corresponding storage",
-  "upload": "Upload file to corresponding storage",
-  "copy": "Copy file from a storage to another storage",
-  "decompress": "Download and decompress an archive file",
-  "decompress_upload": "Upload extracted file into target storage",
-  "done": "Completed",
-  "undone": "Running",
-  "clear_succeeded": "Clear Succeeded",
-  "retry": "Retry",
-  "retry_failed": "Retry Failed",
+  "offline_download": "ファイルをローカルにダウンロード",
+  "offline_download_transfer": "ダウンロードしたファイルを対応するストレージに転送",
+  "upload": "対応するストレージにファイルをアップロード",
+  "copy": "ファイルをストレージから別のストレージにコピー",
+  "decompress": "アーカイブファイルをダウンロードして展開します",
+  "decompress_upload": "抽出されたファイルをターゲットストレージにアップロード",
+  "done": "完了",
+  "undone": "実行中",
+  "clear_succeeded": "クリアに成功しました",
+  "retry": "再試行",
+  "retry_failed": "再試行に失敗しました",
   "state": {
-    "0": "Pending",
-    "1": "Running",
-    "2": "Succeeded",
-    "3": "Canceling",
-    "4": "Canceled",
-    "5": "Errored",
-    "6": "Failing",
-    "7": "Failed",
-    "8": "WaitingRetry",
-    "9": "BeforeRetry"
+    "0": "保留中",
+    "1": "実行中",
+    "2": "成功しました",
+    "3": "キャンセル中",
+    "4": "キャンセルしました",
+    "5": "エラー",
+    "6": "失敗しました",
+    "7": "失敗",
+    "8": "再試行を待機中",
+    "9": "再試行前"
   },
-  "retry_selected": "Retry Selected",
-  "cancel_selected": "Cancel Selected",
-  "delete_selected": "Delete Selected",
-  "filter": "Filter",
-  "expand": "Expand",
-  "fold": "Fold",
-  "expand_all": "Expand All",
-  "fold_all": "Fold All",
+  "retry_selected": "選択を再試行する",
+  "cancel_selected": "選択をキャンセル",
+  "delete_selected": "選択したものを削除",
+  "filter": "フィルター",
+  "expand": "展開",
+  "fold": "折り畳み",
+  "expand_all": "すべて展開",
+  "fold_all": "すべて折り畳み",
   "attr": {
-    "name": "Name",
-    "creator": "Creator",
-    "state": "State",
-    "progress": "Progress",
-    "speed": "Speed",
-    "operation": "Operation",
+    "name": "名前",
+    "creator": "作成者",
+    "state": "都道府県：",
+    "progress": "進捗状況",
+    "speed": "速度",
+    "operation": "操作",
     "copy": {
-      "src": "Source Path",
-      "dst": "Destination Path"
+      "src": "ソースパス",
+      "dst": "宛先パス"
     },
     "upload": {
-      "path": "Path"
+      "path": "パス"
     },
     "offline_download": {
       "url": "URL",
-      "path": "Destination Path",
-      "transfer_src": "Source Path",
-      "transfer_src_local": "Source Path (Local)",
-      "transfer_dst": "Destination Path"
+      "path": "宛先パス",
+      "transfer_src": "ソースパス",
+      "transfer_src_local": "ソースパス (ローカル)",
+      "transfer_dst": "宛先パス"
     },
     "decompress": {
-      "src": "Source Path",
-      "dst": "Destination Path",
-      "inner": "Inner Path",
-      "password": "Extraction Password"
+      "src": "ソースパス",
+      "dst": "宛先パス",
+      "inner": "内部パス",
+      "password": "抽出パスワード"
     },
-    "time_elapsed": "Time Elapsed",
-    "status": "Status",
-    "err": "Error"
+    "time_elapsed": "経過時間",
+    "status": "状態",
+    "err": "エラー"
   },
-  "show_only_mine": "Show only my tasks"
+  "show_only_mine": "自分のタスクのみ表示"
 }
