@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStore Installing",
     "open_in_new_window": "Открыть в новом окне",
-    "auto_next": "Авто далее"
+    "auto_next": "Авто далее",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "Вид списка",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "Добавить задачу",
     "try_rapid": "Попробуйте быстро",
-    "upload-tips": "Перетащите файлы сюда для загрузки, или щелкните мышкой:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "Отпустите для загрузки",
     "no_files_drag": "Файлы не были перетащины.",
     "upload_files": "Выберите файлы",
