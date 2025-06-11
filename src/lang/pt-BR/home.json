@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "Instalando TrollStore",
     "open_in_new_window": "Abrir em uma nova janela",
-    "auto_next": "Próximo Automático"
+    "auto_next": "Próximo Automático",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "Exibição em lista",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "Adicionar como tarefa",
     "try_rapid": "Envio rápido",
-    "upload-tips": "Arraste arquivos aqui para fazer o upload, ou clique:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "Solte para enviar",
     "no_files_drag": "Nenhum arquivo foi arrastado.",
     "upload_files": "Escolher arquivos",
