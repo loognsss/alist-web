@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStore กำลังติดตั้ง",
     "open_in_new_window": "เปิดในหน้าต่างใหม่",
-    "auto_next": "อัตโนมัติต่อไป"
+    "auto_next": "อัตโนมัติต่อไป",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "มุมมองรายการ",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "เพิ่มเป็นงาน",
     "try_rapid": "Try rapid",
-    "upload-tips": "ลากไฟล์มาที่นี่เพื่ออัปโหลด หรือคลิก:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "ปล่อยเพื่ออัปโหลด",
     "no_files_drag": "ไม่มีไฟล์ที่ลากเข้า",
     "upload_files": "เลือกไฟล์",
