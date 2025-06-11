@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStore 正在安装",
     "open_in_new_window": "在新窗口中打开",
-    "auto_next": "自动下一个"
+    "auto_next": "自动下一个",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "列表视图",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "添加为任务",
     "try_rapid": "尝试秒传",
-    "upload-tips": "拖动文件到此处以上传，或点击：",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "松开以上传",
     "no_files_drag": "没有文件被拖入。",
     "upload_files": "选择文件",
