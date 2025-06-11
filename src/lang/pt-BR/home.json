@@ -1,0 +1,183 @@
+{
+  "obj": {
+    "name": "Nome",
+    "size": "Tamanho",
+    "modified": "Modificado em"
+  },
+  "preview": {
+    "download": "Baixar",
+    "failed_load_img": "Não foi possível carregar a imagem",
+    "open_with": "Abrir com...",
+    "play_with": "Reproduzir com...",
+    "install": "Instalar",
+    "installing": "Instalando",
+    "tr-install": "TrollStore",
+    "tr-installing": "Instalando TrollStore",
+    "open_in_new_window": "Abrir em uma nova janela",
+    "auto_next": "Próximo Automático",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
+  },
+  "layouts": {
+    "list": "Exibição em lista",
+    "grid": "Exibição em grade",
+    "image": "Exibição de imagem"
+  },
+  "no_images": "Nenhuma imagem na pasta atual",
+  "load_more": "Carregar mais",
+  "no_more": "Nada a mais",
+  "input_password": "Informe a senha",
+  "toolbar": {
+    "more": "Mais",
+    "refresh": "Atualizar",
+    "toggle_theme": "Alternar Tema",
+    "switch_lang": "Trocar Idioma",
+    "toggle_markdown_toc": "Alternar Índice",
+    "toggle_checkbox": "Caixas de Seleção",
+    "rename": "Renomear",
+    "input_new_name": "Insira um novo nome",
+    "move": "Mover",
+    "copy": "Copiar",
+    "choose_dst_folder": "Selecionar pasta destino",
+    "delete": "Excluir",
+    "delete-tips": "Tem certeza que deseja excluir o objeto selecionado?",
+    "decompress": "Descompactar",
+    "decompress-pass": "Senha de extração: ",
+    "decompress-cache-full": "Cache cheio em um arquivo temporário",
+    "decompress-put-into-new": "Descompactar para uma nova sub-pasta",
+    "extract": "Extrair para",
+    "archive": {
+      "input_password": "Insira a senha de extração",
+      "incorrect_password": "Senha incorreta",
+      "extract_header": "Extrair {{path}} para..."
+    },
+    "copy_link": "Copiar link",
+    "preview_page": "Pré-visualizar página",
+    "down_link": "Link para download",
+    "encode_down_link": "Codificar link para download",
+    "mkdir": "Nova Pasta",
+    "input_dir_name": "Inserir nome da pasta",
+    "new_file": "Novo Arquivo",
+    "input_filename": "Nome do arquivo",
+    "cancel_select": "Cancelar seleção",
+    "offline_download": "Download Offline",
+    "offline_download-tips": "Um URL por linha",
+    "delete_policy": {
+      "delete_on_upload_succeed": "Apagar após sucesso no envio",
+      "delete_on_upload_failed": "Apagar após falha no envio",
+      "delete_never": "Nunca apagar",
+      "delete_always": "Sempre apagar"
+    },
+    "download": "Baixar",
+    "batch_download": "Download em lote",
+    "package_download": "Download em pacotes",
+    "package_download_disabled": "O download em pacotes está desativado",
+    "send_aria2": "Enviar para Aria2",
+    "aria2_not_set": "Por favor, defina aria2 rpc url",
+    "send_aria2_success": "Enviado para aria2 com sucesso",
+    "pre_package_download-tips": "O uso da streamSaver no navegador em vez do servidor para baixar pacotes requer o armazenamento correspondente para suportar cors, e o armazenamento não suportado falhará.",
+    "package_download-tips": "Baixando, por favor aguarde. Não feche a página",
+    "playlist_download": "Download da Playlist",
+    "upload": "Enviar",
+    "local_settings": "Configurações Locais",
+    "recursive_move": "Mover Recursivamente",
+    "recursive_move_directory-tips": "Tem certeza que deseja mover todos os arquivos da pasta atual e suas subpastas para a pasta especificada?",
+    "remove_empty_directory": "Remover Pastas Vazias",
+    "remove_empty_directory-tips": "Você tem certeza que deseja excluir todas as subpastas vazias?",
+    "batch_rename": "Renomear em Lote",
+    "regex_rename": "Renomear com Regex",
+    "sequential_renaming": "Renomear em Sequência",
+    "regex_rename_preview": "Arquivos Alterados",
+    "regex_rename_preview_old_name": "Nome Anterior",
+    "regex_rename_preview_new_name": "Novo Nome",
+    "regular_rename": "Renomear arquivo com expressão regular. Insira a expressão regular do arquivo de origem na primeira linha e insira o novo nome de arquivo com uma expressão regular na segunda linha.",
+    "sequential_renaming_desc": "O novo nome do arquivo terá um valor de início numérico anexado a ele, e será exibido sequencialmente, adicionando 1 ao valor inicial. Insira o novo nome de arquivo na primeira linha e o valor inicial na segunda linha."
+  },
+  "upload": {
+    "add_as_task": "Adicionar como tarefa",
+    "try_rapid": "Envio rápido",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
+    "release": "Solte para enviar",
+    "no_files_drag": "Nenhum arquivo foi arrastado.",
+    "upload_files": "Escolher arquivos",
+    "upload_folder": "Escolher pasta",
+    "pending": "Pendente",
+    "uploading": "Enviando",
+    "backending": "Carregando no backend",
+    "success": "Sucesso",
+    "error": "Erro",
+    "back": "Voltar para o Upload",
+    "clear_done": "Limpar Concluído"
+  },
+  "local_settings": {
+    "aria2_rpc_url": "Aria2 RPC URL",
+    "aria2_rpc_secret": "Aria2 RPC secret",
+    "aria2_dir": "Diretório de download Aria2",
+    "show_folder_in_image_view": "Exibir pasta na visualização de imagens",
+    "show_folder_in_image_view_options": {
+      "top": "Superior",
+      "bottom": "Inferior",
+      "none": "Nenhuma"
+    },
+    "global_default_layout": "Layout padrão global",
+    "global_default_layout_options": {
+      "list": "Exibição em lista",
+      "grid": "Exibição em grade",
+      "image": "Exibição de imagem"
+    },
+    "position_of_header_navbar": "Posição da barra de cabeçalho e nav",
+    "position_of_header_navbar_options": {
+      "static": "Normal",
+      "sticky": "Fixar no topo da página",
+      "only_navbar_sticky": "Apenas barra de navegação fixa"
+    },
+    "show_sidebar": "Exibir barra lateral",
+    "show_sidebar_options": {
+      "none": "Nenhuma",
+      "visible": "Visível"
+    },
+    "list_item_filename_overflow": "Nome de arquivo excedente",
+    "list_item_filename_overflow_options": {
+      "ellipsis": "Elipse",
+      "scrollable": "Rolável",
+      "multi_line": "Multi-linha"
+    },
+    "open_item_on_checkbox": "Abrir item na caixa de seleção",
+    "open_item_on_checkbox_options": {
+      "direct": "Direto",
+      "dblclick": "Clique duplo",
+      "disable_while_checked": "Desativar quando marcado"
+    }
+  },
+  "package_download": {
+    "current_status": "Status Atual",
+    "initializing": "Inicializando",
+    "fetching_struct": "Buscando estrutura de pastas",
+    "fetching_struct_failed": "Falha ao buscar a estrutura da pasta",
+    "downloading": "Baixando arquivos, não feche ou atualize a página",
+    "failed": "Falha ao baixar pacote",
+    "success": "Download concluído"
+  },
+  "footer": {
+    "powered_by": "Powered by AList",
+    "manage": "Administrar"
+  },
+  "search": {
+    "search": "Pesquisa",
+    "no_result": "Nenhum resultado",
+    "scopes": {
+      "all": "Tudo",
+      "folder": "Pasta",
+      "file": "Arquivo"
+    }
+  },
+  "fetching_settings_failed": "Falha ao obter as configurações: ",
+  "get_current_user_failed": "Falha ao obter o usuário atual: ",
+  "Loading storage, please wait": "Carregando armazenamento, por favor aguarde",
+  "conflict_policy": {
+    "cancel_if_exists": "Cancelar se o arquivo existir",
+    "overwrite_existing": "Sobrescrever arquivos existentes",
+    "skip_existing": "Ignorar arquivos existentes"
+  }
+}

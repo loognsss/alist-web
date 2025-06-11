@@ -1,0 +1,22 @@
+{
+  "aria2": "Aria2",
+  "aria2_version": "Версия Aria2:",
+  "set_aria2": "Установить aria2",
+  "copy_token": "Копировать токен",
+  "reset_token": "Reset Token",
+  "reset_token_success": "Токен сброшен успешно",
+  "unknown_type": "Неизвестный тип",
+  "set_qbit": "Установить qBittorrent",
+  "qbittorrent": "qBittorrent",
+  "transmission": "Трансмиссия",
+  "set_transmission": "Установить передачу",
+  "115": "115",
+  "set_115": "Набор 115",
+  "pikpak": "PikPak",
+  "set_pikpak": "Установить пикпак",
+  "thunder": "Гром",
+  "set_thunder": "Установить гром",
+  "thunder_browser": "ThunderBrowser",
+  "set_thunder_browser": "Set ThunderBrowser",
+  "set_thunderX": "Set ThunderX"
+}

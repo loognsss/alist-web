@@ -1,0 +1,22 @@
+{
+  "aria2": "Aria2",
+  "aria2_version": "Aria2のバージョン:",
+  "set_aria2": "Aria2を設定",
+  "copy_token": "トークンをコピー",
+  "reset_token": "トークンをリセット",
+  "reset_token_success": "トークンのリセットに成功しました",
+  "unknown_type": "不明な種類",
+  "set_qbit": "qBittorrentを設定",
+  "qbittorrent": "qBittorrent",
+  "transmission": "送信",
+  "set_transmission": "送信を設定する",
+  "115": "115",
+  "set_115": "115を設定",
+  "pikpak": "PikPak",
+  "set_pikpak": "PikPak を設定",
+  "thunder": "Thunder",
+  "set_thunder": "雷をセット",
+  "thunder_browser": "ThunderBrowser",
+  "set_thunder_browser": "Set ThunderBrowser",
+  "set_thunderX": "Set ThunderX"
+}

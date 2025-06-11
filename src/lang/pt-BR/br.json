@@ -1,0 +1,17 @@
+{
+  "backup": "Backup",
+  "restore": "Restaurar",
+  "start_backup": "Iniciar backup",
+  "finish_backup": "Finalizar backup",
+  "success_backup_item": "[ {{item}} ] Backup bem-sucedido",
+  "failed_backup_item": "[ {{item}} ] Falha no backup",
+  "no_file": "Nenhum arquivo selecionado",
+  "start_restore": "Iniciar restauração",
+  "finish_restore": "Finalizar restauração",
+  "success_restore_item": "[ {{item}} ] A restauração foi bem sucedida",
+  "failed_restore_item": "[ {{item}} ] Falha na restauração",
+  "override": "Sobrescrever",
+  "encrypt_password_placeholder": "Deixe em branco se você não precisar de criptografia",
+  "encrypt_password": "Senha de criptografia",
+  "wrong_encrypt_password": "Senha de criptografia errada"
+}

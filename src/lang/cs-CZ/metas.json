@@ -1,0 +1,12 @@
+{
+  "path": "Cesta",
+  "password": "Heslo",
+  "write": "Napsat",
+  "hide": "Skrýt",
+  "readme": "Čtení",
+  "readme_help": "Vykreslovat markdown na dně, obsah podpory nebo odkaz",
+  "header": "Záhlaví",
+  "header_help": "Vykreslovat markdown v horní části, obsahu podpory nebo odkazu",
+  "apply_sub": "Použít pro podsložku",
+  "hide_help": "Jeden regulární výraz na řádek"
+}

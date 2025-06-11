@@ -1,0 +1,47 @@
+{
+  "common": {
+    "mount_path": "Caminho de Montagem",
+    "mount_path-tips": "O caminho que você deseja montar é único e não pode ser repetido",
+    "driver": "Driver",
+    "order": "Ordem",
+    "order-tips": "Use para ordenar",
+    "status": "Status",
+    "remark": "Observação",
+    "cache_expiration": "Expiração do Cache",
+    "cache_expiration-tips": "O tempo de expiração do cache para este armazenamento(minutos)",
+    "down_proxy_url": "URL do download proxy",
+    "web_proxy": "Proxy da Web",
+    "webdav_policy": "Política WebDAV",
+    "proxy_range": "Proxy Range",
+    "proxy_range-tips": "Necessário habilitar proxy",
+    "webdav_policys": {
+      "302_redirect": "Redirecionamento 302",
+      "use_proxy_url": "usar URL do proxy",
+      "native_proxy": "proxy nativo"
+    },
+    "order_by": "Ordenar por",
+    "order_bys": {
+      "name": "Nome",
+      "size": "Tamanho",
+      "modified": "Modificado em"
+    },
+    "order_direction": "Direção da ordenação",
+    "order_directions": {
+      "asc": "Crescente",
+      "desc": "Decrescente"
+    },
+    "extract_folder": "Extrair pasta",
+    "extract_folders": {
+      "front": "Extrair para frente",
+      "back": "Extrair para trás"
+    },
+    "enable_sign": "Ativar sinal",
+    "disable_index": "Desativar o índice"
+  },
+  "other": {
+    "start_load_success": "Iniciar carregamento",
+    "load_all": "Recarregar todas",
+    "filter_by_driver": "Filtrar por driver",
+    "table_layout": "Layout de tabela"
+  }
+}

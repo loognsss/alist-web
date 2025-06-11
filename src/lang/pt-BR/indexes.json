@@ -1,0 +1,15 @@
+{
+  "search_index": "Índice de pesquisa",
+  "current": "Índices atuais",
+  "build": "Criar índices",
+  "rebuild": "Reconstruir índices",
+  "paths_to_update": "Caminhos para atualizar",
+  "max_depth": "Profundidade máxima",
+  "update": "Atualizar índices",
+  "obj_count": "Contagem de objeto",
+  "last_done_time": "Hora da última tarefa",
+  "unknown": "Desconhecido",
+  "stop": "Interromper",
+  "clear": "Limpar",
+  "error": "Erro"
+}

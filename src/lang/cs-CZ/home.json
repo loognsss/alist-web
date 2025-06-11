@@ -1,0 +1,183 @@
+{
+  "obj": {
+    "name": "Název",
+    "size": "Velikost",
+    "modified": "Upraveno"
+  },
+  "preview": {
+    "download": "Stáhnout",
+    "failed_load_img": "Nepodařilo se načíst obrázek",
+    "open_with": "Otevřít pomocí ...",
+    "play_with": "Hrát s ...",
+    "install": "Instalovat",
+    "installing": "Instalace",
+    "tr-install": "TrollStore",
+    "tr-installing": "TrollStore Installing",
+    "open_in_new_window": "Otevřít v novém okně",
+    "auto_next": "Automaticky",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
+  },
+  "layouts": {
+    "list": "Zobrazení seznamu",
+    "grid": "Zobrazení mřížky",
+    "image": "Zobrazení obrázku"
+  },
+  "no_images": "Žádné obrázky v aktuální složce",
+  "load_more": "Načíst více",
+  "no_more": "Žádné další",
+  "input_password": "Zadejte prosím heslo",
+  "toolbar": {
+    "more": "Více",
+    "refresh": "Aktualizovat",
+    "toggle_theme": "Přepnout motiv",
+    "switch_lang": "Přepnout jazyk",
+    "toggle_markdown_toc": "Přepnout obrys",
+    "toggle_checkbox": "Přepnout zaškrtávací pole",
+    "rename": "Přejmenovat",
+    "input_new_name": "Zadejte nový název",
+    "move": "Přesunout",
+    "copy": "Kopírovat",
+    "choose_dst_folder": "Vyberte cílovou složku",
+    "delete": "Vymazat",
+    "delete-tips": "Opravdu chcete odstranit vybraný objekt?",
+    "decompress": "Dekomprimovat",
+    "decompress-pass": "Extrakce hesla: ",
+    "decompress-cache-full": "Cache plná do dočasných souborů",
+    "decompress-put-into-new": "Rozbalit do nové podsložky",
+    "extract": "Extrahovat do",
+    "archive": {
+      "input_password": "Zadejte prosím heslo pro extrakci",
+      "incorrect_password": "Nesprávné heslo",
+      "extract_header": "Extract {{path}} to..."
+    },
+    "copy_link": "Kopírovat odkaz",
+    "preview_page": "Náhled stránky",
+    "down_link": "Odkaz ke stažení",
+    "encode_down_link": "Odkaz ke stažení enkódovat",
+    "mkdir": "Nová složka",
+    "input_dir_name": "Vstupní název složky",
+    "new_file": "Nový soubor",
+    "input_filename": "Vstupní název souboru",
+    "cancel_select": "Zrušit výběr",
+    "offline_download": "Offline stahování",
+    "offline_download-tips": "Jedna URL na řádek",
+    "delete_policy": {
+      "delete_on_upload_succeed": "Odstranění po úspěšném nahrání",
+      "delete_on_upload_failed": "Odstranění při nahrávání se nezdařilo",
+      "delete_never": "Nikdy neodstraňovat",
+      "delete_always": "Vždy smazat"
+    },
+    "download": "Stáhnout",
+    "batch_download": "Dávkové stažení",
+    "package_download": "Stáhnout balíček",
+    "package_download_disabled": "Stahování balíčku je zakázáno",
+    "send_aria2": "Poslat do Aria2",
+    "aria2_not_set": "Prosím nastavte url url aria2",
+    "send_aria2_success": "Odesláno do aria2 úspěšně",
+    "pre_package_download-tips": "Použití streameru v prohlížeči namísto serveru pro stahování balíčků vyžaduje odpovídající úložiště pro podporu cors. Nepodporované úložiště se nezdaří.",
+    "package_download-tips": "Stahování, prosím čekejte na nezavření stránky",
+    "playlist_download": "Stáhnout playlist",
+    "upload": "Nahrát",
+    "local_settings": "Místní nastavení",
+    "recursive_move": "Rekurentní tah",
+    "recursive_move_directory-tips": "Jste si jisti, že chcete přesunout všechny soubory do aktuální složky a její podsložky do vybrané složky?",
+    "remove_empty_directory": "Odstranit prázdnou složku",
+    "remove_empty_directory-tips": "Opravdu chcete odstranit všechny jeho prázdné podsložky?",
+    "batch_rename": "Hromadné přejmenování",
+    "regex_rename": "Regex přejmenovat",
+    "sequential_renaming": "Pořadové přejmenování",
+    "regex_rename_preview": "Změněné soubory",
+    "regex_rename_preview_old_name": "Staré jméno",
+    "regex_rename_preview_new_name": "Nový název",
+    "regular_rename": "Soubor regulárního výrazu přejmenován. Vložte zdrojový soubor regulární výraz na první řádek a vložte nový název souboru regulární výraz na druhý řádek.",
+    "sequential_renaming_desc": "Nový název souboru bude mít připojenou číselnou počáteční hodnotu, a zobrazí se postupně přidáním 1 k výchozí hodnotě. Zadejte nový název souboru na první řádek a počáteční hodnotu na druhém řádku."
+  },
+  "upload": {
+    "add_as_task": "Přidat jako úkol",
+    "try_rapid": "Zkuste rychle",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
+    "release": "Uvolněte pro nahrání",
+    "no_files_drag": "Žádné soubory nebyly přetaženy.",
+    "upload_files": "Vybrat soubory",
+    "upload_folder": "Vybrat složku",
+    "pending": "Nevyřízeno",
+    "uploading": "Nahrávání",
+    "backending": "Nahrávání do backendu",
+    "success": "Úspěšně",
+    "error": "Chyba",
+    "back": "Zpět na nahrání",
+    "clear_done": "Vymazání dokončeno"
+  },
+  "local_settings": {
+    "aria2_rpc_url": "Aria2 RPC URL",
+    "aria2_rpc_secret": "Aria2 RPC tajný",
+    "aria2_dir": "Aria2 adresář pro stahování",
+    "show_folder_in_image_view": "Zobrazit složku v zobrazení obrázku",
+    "show_folder_in_image_view_options": {
+      "top": "Nahoře",
+      "bottom": "Spodní",
+      "none": "Nic"
+    },
+    "global_default_layout": "Globální výchozí rozložení",
+    "global_default_layout_options": {
+      "list": "Zobrazení seznamu",
+      "grid": "Zobrazení mřížky",
+      "image": "Zobrazení obrázku"
+    },
+    "position_of_header_navbar": "Pozice záhlaví a navigační lišty",
+    "position_of_header_navbar_options": {
+      "static": "Normální",
+      "sticky": "Přejít na horní část stránky",
+      "only_navbar_sticky": "Pouze navigační lišta lepící"
+    },
+    "show_sidebar": "Show sidebar",
+    "show_sidebar_options": {
+      "none": "Nic",
+      "visible": "Viditelné"
+    },
+    "list_item_filename_overflow": "Přepsat název souboru položky",
+    "list_item_filename_overflow_options": {
+      "ellipsis": "Elipsis",
+      "scrollable": "Posunout",
+      "multi_line": "Víceřádkové"
+    },
+    "open_item_on_checkbox": "Otevřít položku v zaškrtávacím políčku",
+    "open_item_on_checkbox_options": {
+      "direct": "Přímé",
+      "dblclick": "Dvojité kliknutí",
+      "disable_while_checked": "Zakázat při zaškrtnutí"
+    }
+  },
+  "package_download": {
+    "current_status": "Aktuální stav",
+    "initializing": "Inicializace",
+    "fetching_struct": "Načítání struktury složek",
+    "fetching_struct_failed": "Nepodařilo se načíst strukturu složky",
+    "downloading": "Stahování souborů, nezavírejte nebo aktualizujte stránku",
+    "failed": "Nepodařilo se stáhnout balíček",
+    "success": "Stahování dokončeno"
+  },
+  "footer": {
+    "powered_by": "Poháněn AListou",
+    "manage": "Spravovat"
+  },
+  "search": {
+    "search": "Hledat",
+    "no_result": "Zatím žádný výsledek",
+    "scopes": {
+      "all": "Vše",
+      "folder": "Složka",
+      "file": "Soubor"
+    }
+  },
+  "fetching_settings_failed": "Nepodařilo se načíst nastavení: ",
+  "get_current_user_failed": "Nepodařilo se získat aktuálního uživatele: ",
+  "Loading storage, please wait": "Načítání úložiště, čekejte prosím",
+  "conflict_policy": {
+    "cancel_if_exists": "Zrušit, pokud soubor existuje",
+    "overwrite_existing": "Přepsat existující soubory",
+    "skip_existing": "Přeskočit existující soubory"
+  }
+}

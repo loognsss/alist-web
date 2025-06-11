@@ -1,0 +1,65 @@
+{
+  "offline_download": "파일을 로컬 장치에 다운로드",
+  "offline_download_transfer": "다운로드한 파일을 해당 저장소로 전송",
+  "upload": "파일을 해당 저장소에 업로드",
+  "copy": "파일을 한 저장소에서 다른 저장소로 복사",
+  "decompress": "Download and decompress an archive file",
+  "decompress_upload": "Upload extracted file into target storage",
+  "done": "완료됨",
+  "undone": "실행 중...",
+  "clear_succeeded": "성공적으로 삭제됨",
+  "retry": "재시도",
+  "retry_failed": "실패한 항목 재시도",
+  "state": {
+    "0": "대기 중...",
+    "1": "실행 중...",
+    "2": "성공",
+    "3": "취소 중...",
+    "4": "취소됨",
+    "5": "오류",
+    "6": "실패 중...",
+    "7": "실패",
+    "8": "재시도 대기 중",
+    "9": "재시도 전 단계 중"
+  },
+  "retry_selected": "Retry Selected",
+  "cancel_selected": "Cancel Selected",
+  "delete_selected": "Delete Selected",
+  "filter": "Filter",
+  "expand": "Expand",
+  "fold": "Fold",
+  "expand_all": "Expand All",
+  "fold_all": "Fold All",
+  "attr": {
+    "name": "이름",
+    "creator": "Creator",
+    "state": "State",
+    "progress": "Progress",
+    "speed": "Speed",
+    "operation": "Operation",
+    "copy": {
+      "src": "Source Path",
+      "dst": "Destination Path"
+    },
+    "upload": {
+      "path": "경로"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "Destination Path",
+      "transfer_src": "Source Path",
+      "transfer_src_local": "Source Path (Local)",
+      "transfer_dst": "Destination Path"
+    },
+    "decompress": {
+      "src": "Source Path",
+      "dst": "Destination Path",
+      "inner": "Inner Path",
+      "password": "Extraction Password"
+    },
+    "time_elapsed": "Time Elapsed",
+    "status": "상태",
+    "err": "오류"
+  },
+  "show_only_mine": "Show only my tasks"
+}
