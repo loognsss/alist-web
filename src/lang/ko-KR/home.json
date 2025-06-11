@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStore 설치 중",
     "open_in_new_window": "새 창에서 열기",
-    "auto_next": "자동 다음"
+    "auto_next": "자동 다음",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "목록 보기",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "작업으로 추가",
     "try_rapid": "Try rapid",
-    "upload-tips": "파일을 이곳으로 드래그하여 업로드하거나 클릭하여 선택하세요:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "업로드를 위해 놓으세요",
     "no_files_drag": "드래그된 파일이 없습니다.",
     "upload_files": "파일 선택",
