@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStore Installing",
     "open_in_new_window": "Otevřít v novém okně",
-    "auto_next": "Automaticky"
+    "auto_next": "Automaticky",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "Zobrazení seznamu",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "Přidat jako úkol",
     "try_rapid": "Zkuste rychle",
-    "upload-tips": "Přetáhněte soubory sem pro nahrání, nebo klikněte:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "Uvolněte pro nahrání",
     "no_files_drag": "Žádné soubory nebyly přetaženy.",
     "upload_files": "Vybrat soubory",
