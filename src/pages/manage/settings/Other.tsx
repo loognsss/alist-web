@@ -27,6 +27,7 @@ const OtherSettings = () => {
   const [pikpakTempDir, setPikPakTempDir] = createSignal("")
   const [thunderTempDir, setThunderTempDir] = createSignal("")
   const [thunderBrowserTempDir, setThunderBrowserTempDir] = createSignal("")
+  const [thunderXTempDir, setThunderXTempDir] = createSignal("")
   const [token, setToken] = createSignal("")
   const [settings, setSettings] = createSignal<SettingItem[]>([])
   const [settingsLoading, settingsData] = useFetch(
@@ -75,6 +76,12 @@ const OtherSettings = () => {
         temp_dir: thunderBrowserTempDir(),
       }),
   )
+  const [setThunderXLoading, setThunderX] = useFetch(
+    (): PResp<string> =>
+      r.post("/admin/setting/set_thunderx", {
+        temp_dir: thunderXTempDir(),
+      }),
+  )
   const refresh = async () => {
     const resp = await settingsData()
     handleResp(resp, (data) => {
@@ -100,6 +107,9 @@ const OtherSettings = () => {
       )
       setThunderBrowserTempDir(
         data.find((i) => i.key === "thunder_browser_temp_dir")?.value || "",
+      )
+      setThunderXTempDir(
+        data.find((i) => i.key === "thunderx_temp_dir")?.value || "",
       )
       setSettings(data)
     })
@@ -282,6 +292,29 @@ const OtherSettings = () => {
         }}
       >
         {t("settings_other.set_thunder_browser")}
+      </Button>
+      <Heading my="$2">{t("settings_other.thunderx")}</Heading>
+      <FormControl w="$full" display="flex" flexDirection="column">
+        <FormLabel for="thunderX_temp_dir" display="flex" alignItems="center">
+          {t(`settings.thunderX_temp_dir`)}
+        </FormLabel>
+        <FolderChooseInput
+          id="thunderX_temp_dir"
+          value={thunderTempDir()}
+          onChange={(path) => setThunderTempDir(path)}
+        />
+      </FormControl>
+      <Button
+        my="$2"
+        loading={setThunderXLoading()}
+        onClick={async () => {
+          const resp = await setThunderX()
+          handleResp(resp, (data) => {
+            notify.success(data)
+          })
+        }}
+      >
+        {t("settings_other.set_thunderX")}
       </Button>
       <Heading my="$2">{t("settings.token")}</Heading>
       <Input value={token()} readOnly />
