@@ -14,7 +14,10 @@
     "tr-install": "TrollStore",
     "tr-installing": "TrollStoreをインストール中",
     "open_in_new_window": "新しいウィンドウで開く",
-    "auto_next": "自動で次へ"
+    "auto_next": "自動で次へ",
+    "large_file": "File is too large to preview.",
+    "large_file_desc": "This file may not be in text format and exceeds preview size limits. It's recommended to Download or use Text Editor.",
+    "large_file_hljs_disabled": "Highlighting is disabled for large content to optimize performance. Please use Text Editor instead."
   },
   "layouts": {
     "list": "リストビュー",
@@ -94,7 +97,7 @@
   "upload": {
     "add_as_task": "タスクに追加",
     "try_rapid": "迅速に試す",
-    "upload-tips": "ファイルをドラッグしてアップロード:",
+    "upload-tips": "Drag files here, click buttons below, or paste from clipboard to upload",
     "release": "リリースしてアップロード",
     "no_files_drag": "ファイルはドラッグされていません",
     "upload_files": "ファイルを選択",
