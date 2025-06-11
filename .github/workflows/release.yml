@@ -82,7 +82,7 @@ jobs:
           github_token: ${{ secrets.MY_TOKEN }}
           branch: main
           directory: web-dist
-          repository: loognsss/blist-web
+          repository: loognsss/blist-web-dist
 
       - name: Release
         uses: softprops/action-gh-release@v1
